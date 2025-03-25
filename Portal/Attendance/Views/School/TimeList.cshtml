@@ -1,0 +1,220 @@
+﻿@{
+    ViewData["Title"] = "Attendance";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model OrganisationTimeModel
+
+
+
+
+<main class="app-main">
+    <!--begin::App Content Header-->
+    <div class="app-content-header">
+        <!--begin::Container-->
+        <div class="container-fluid">
+            <!--begin::Row-->
+            <div class="row">
+                <div class="col-sm-6"><h3 class="mb-0">Time List</h3></div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-end">
+                    </ol>
+                </div>
+            </div>
+            <!--end::Row-->
+        </div>
+        <!--end::Container-->
+    </div>
+
+    <div class="app-content">
+        <!--begin::Container-->
+        <div class="container-fluid">
+            <!--begin::Row-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card mb-4">
+                        <div class="card-header"><h3 class="card-title">Time</h3></div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10px">#</th>
+                                        <th> In Start Time</th>
+                                        <th> In End Time</th>
+                                        <th>Out Start Time</th>
+                                        <th> Out End Time</th>
+                                        <th>allowedRadius</th>
+                                        <th>Action</th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @{
+                                        int srno = 0;
+                                        @foreach (var item in Model.OrganisationTimeList)
+                                        {
+                                            srno++;
+                                            <tr>
+                                                <td>@srno</td>
+                                                <td>@item.InStartTime</td>
+                                                <td>@item.InEndTime</td>
+                                                <td>@item.OutStartTime</td>
+                                                <td>@item.OutEndTime</td>
+                                                <td>@item.allowedRadius</td>
+                                                <td>
+                                                    <a href="#" class="edit-btn"
+                                                       data-id="@item.orgtimeid"
+                                                       data-starttime="@item.InStartTime"
+                                                       data-endtime="@item.InEndTime"
+                                                       data-outstart="@item.OutStartTime"
+                                                       data-outend="@item.OutEndTime"
+                                                       data-radius="@item.allowedRadius"
+                                                       data-bs-toggle="modal"
+                                                       data-bs-target="#editModal" class=" btn btn-sm btn-info">
+                                                        Edit
+                                                    </a>
+
+                                                </td>
+
+                                                @*    <td>
+                                        @if (item.status == 1)
+                                        {
+
+                                        <a href="@Url.Action("#", "#", new { id = item.id })" data-toggle="tooltip" data-placement="top" title="#"><span class="badge badge-xs badge-success">Active</span></a>
+                                        }
+                                        else
+                                        {
+                                        <span class="badge badge-xs badge-danger">Inactive</span>
+                                        }
+                                        </td>
+                                        <td>
+                                        <span>
+                                        <a href="@Url.Action("#", "#", new { id = item.id })" class="mr-4" data-toggle="modal" data-target="#modal-default" data-placement="top" title="Edit">   <span class="badge badge-xs badge-success">Edit</span>   </a>
+                                        <a href="@Url.Action("Delete", "ControllerName", new { id = item.id })" data-toggle="tooltip" data-placement="top" title="Delete"><i class="fa fa-close color-danger"></i></a>
+                                        </span>
+                                        </td> *@
+                                            </tr>
+
+                                        }
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.card-body -->
+
+                    </div>
+                    <!-- /.card -->
+                    <!-- /.card -->
+                </div>
+                <!-- /.col -->
+                <!-- /.col -->
+            </div>
+            <!--end::Row-->
+        </div>
+        <!--end::Container-->
+    </div>
+
+    <!-- Edit Modal -->
+    <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editModalLabel">Edit Attendance Time</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="editForm">
+                        <input type="hidden" id="editId" name="orgtimeid">
+
+                        <div class="mb-3">
+                            <label for="startTime" class="form-label">In Start Time</label>
+                            <input type="time" class="form-control" id="startTime" name="InStartTime" onfocus="this.Click()">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="endTime" class="form-label">In End Time</label>
+                            <input type="time" class="form-control" id="endTime" name="InEndTime" onfocus="this.showPicker()">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="outStartTime" class="form-label">Out Start Time</label>
+                            <input type="time" class="form-control" id="outStartTime" name="OutStartTime" onfocus="this.showPicker()">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="outEndTime" class="form-label">Out End Time</label>
+                            <input type="time" class="form-control" id="outEndTime" name="OutEndTime" onfocus="this.showPicker()">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="allowedRadius" class="form-label">Allowed Radius</label>
+                            <input type="number" class="form-control" id="allowedRadius" name="AllowedRadius">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Update</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+@section Scripts {
+    <script>
+        $(document).ready(function(){
+            $(".edit-btn").on("click", function(){
+                var id = $(this).data("id");
+                var startTime = $(this).data("starttime");
+                var endTime = $(this).data("endtime");
+                var outStart = $(this).data("outstart");
+                var outEnd = $(this).data("outend");
+                var radius = $(this).data("radius");
+
+                $("#editId").val(id);
+                $("#startTime").val(startTime ? startTime.substring(0, 5) : "");
+                $("#endTime").val(endTime ? endTime.substring(0, 5) : "");
+                $("#outStartTime").val(outStart ? outStart.substring(0, 5) : "");
+                $("#outEndTime").val(outEnd ? outEnd.substring(0, 5) : "");
+                $("#allowedRadius").val(radius);
+            });
+
+            // Handle form submission (AJAX request to update)
+            $("#editForm").submit(function(event){
+                event.preventDefault();
+
+                $.ajax({
+                    url: "@Url.Action("UpdateOrganisationTime", "Staff")",
+                    type: "POST",
+                    data: $(this).serialize(),
+                    success: function(response){
+                        if(response.success){
+                             Swal.fire({
+                                title: 'Updated!',
+                                text: 'Attendance Timing have been updated.',
+                                icon: 'success'
+                            }).then(() => {
+                                location.reload(); // Reload page after success
+                            });
+                        }else
+                        {
+                             Swal.fire({
+                                title: 'info!',
+                                text: 'Failed to update data.',
+                                icon: 'error'
+                            });
+                        }
+                       
+                    },
+                    error: function(){
+                        Swal.fire({
+                            title: 'Error!',
+                            text: 'Failed to update data.',
+                            icon: 'error'
+                        });
+                    }
+                });
+            });
+        });
+
+    </script>
+}

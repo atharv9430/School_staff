@@ -1,0 +1,431 @@
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\appsettings.json
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\Attendance.staticwebassets.runtime.json
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\Attendance.exe
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\Attendance.deps.json
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\Attendance.runtimeconfig.json
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\Attendance.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\Attendance.pdb
+C:\Users\91620\source\repos\Attendance\Attendance\obj\Debug\net8.0\Attendance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\91620\source\repos\Attendance\Attendance\obj\Debug\net8.0\Attendance.AssemblyInfoInputs.cache
+C:\Users\91620\source\repos\Attendance\Attendance\obj\Debug\net8.0\Attendance.AssemblyInfo.cs
+C:\Users\91620\source\repos\Attendance\Attendance\obj\Debug\net8.0\Attendance.csproj.CoreCompileInputs.cache
+C:\Users\91620\source\repos\Attendance\Attendance\obj\Debug\net8.0\Attendance.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\91620\source\repos\Attendance\Attendance\obj\Debug\net8.0\Attendance.RazorAssemblyInfo.cache
+C:\Users\91620\source\repos\Attendance\Attendance\obj\Debug\net8.0\Attendance.RazorAssemblyInfo.cs
+C:\Users\91620\source\repos\Attendance\Attendance\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\91620\source\repos\Attendance\Attendance\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\91620\source\repos\Attendance\Attendance\obj\Debug\net8.0\staticwebassets\msbuild.Attendance.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\91620\source\repos\Attendance\Attendance\obj\Debug\net8.0\staticwebassets\msbuild.build.Attendance.props
+C:\Users\91620\source\repos\Attendance\Attendance\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Attendance.props
+C:\Users\91620\source\repos\Attendance\Attendance\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Attendance.props
+C:\Users\91620\source\repos\Attendance\Attendance\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\91620\source\repos\Attendance\Attendance\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\91620\source\repos\Attendance\Attendance\obj\Debug\net8.0\scopedcss\bundle\Attendance.styles.css
+C:\Users\91620\source\repos\Attendance\Attendance\obj\Debug\net8.0\scopedcss\projectbundle\Attendance.bundle.scp.css
+C:\Users\91620\source\repos\Attendance\Attendance\obj\Debug\net8.0\Attendance.dll
+C:\Users\91620\source\repos\Attendance\Attendance\obj\Debug\net8.0\refint\Attendance.dll
+C:\Users\91620\source\repos\Attendance\Attendance\obj\Debug\net8.0\Attendance.pdb
+C:\Users\91620\source\repos\Attendance\Attendance\obj\Debug\net8.0\Attendance.genruntimeconfig.cache
+C:\Users\91620\source\repos\Attendance\Attendance\obj\Debug\net8.0\ref\Attendance.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\91620\source\repos\Attendance\Attendance\obj\Debug\net8.0\Attendance.csproj.AssemblyReference.cache
+C:\Users\91620\source\repos\Attendance\Attendance\obj\Debug\net8.0\Attendance.csproj.Up2Date
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-Black.ttf
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-BlackItalic.ttf
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-Bold.ttf
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-BoldItalic.ttf
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-ExtraBold.ttf
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-ExtraBoldItalic.ttf
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-ExtraLight.ttf
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-ExtraLightItalic.ttf
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-Italic.ttf
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-Light.ttf
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-LightItalic.ttf
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-Medium.ttf
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-MediumItalic.ttf
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-Regular.ttf
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-SemiBold.ttf
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-SemiBoldItalic.ttf
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-Thin.ttf
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-ThinItalic.ttf
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\LatoFont\OFL.txt
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\QuestPDF.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\runtimes\linux-arm64\native\libQuestPdfSkia.so
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\runtimes\linux-arm64\native\libqpdf.so
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libQuestPdfSkia.so
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libqpdf.so
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\runtimes\linux-x64\native\libQuestPdfSkia.so
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\runtimes\linux-x64\native\libqpdf.so
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\runtimes\osx-arm64\native\libQuestPdfSkia.dylib
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\runtimes\osx-arm64\native\libqpdf.dylib
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\runtimes\osx-x64\native\libQuestPdfSkia.dylib
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\runtimes\osx-x64\native\libqpdf.dylib
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\runtimes\win-x64\native\QuestPdfSkia.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\runtimes\win-x64\native\libgcc_s_seh-1.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\runtimes\win-x64\native\libstdc++-6.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\runtimes\win-x64\native\libwinpthread-1.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\runtimes\win-x64\native\qpdf.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\runtimes\win-x86\native\QuestPdfSkia.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\runtimes\win-x86\native\libgcc_s_dw2-1.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\runtimes\win-x86\native\libstdc++-6.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\runtimes\win-x86\native\libwinpthread-1.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\runtimes\win-x86\native\qpdf.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\itext.barcodes.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\itext.bouncy-castle-connector.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\itext.forms.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\itext.io.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\itext.kernel.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\itext.layout.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\itext.pdfa.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\itext.pdfua.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\itext.sign.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\itext.styledxmlparser.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\itext.svg.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\itext.commons.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\91620\source\repos\Attendance\Attendance\bin\Debug\net8.0\itextsharp.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\appsettings.json
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-Black.ttf
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-BlackItalic.ttf
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-Bold.ttf
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-BoldItalic.ttf
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-ExtraBold.ttf
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-ExtraBoldItalic.ttf
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-ExtraLight.ttf
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-ExtraLightItalic.ttf
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-Italic.ttf
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-Light.ttf
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-LightItalic.ttf
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-Medium.ttf
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-MediumItalic.ttf
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-Regular.ttf
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-SemiBold.ttf
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-SemiBoldItalic.ttf
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-Thin.ttf
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\LatoFont\Lato-ThinItalic.ttf
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\LatoFont\OFL.txt
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\Attendance.staticwebassets.runtime.json
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\Attendance.staticwebassets.endpoints.json
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\Attendance.exe
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\Attendance.deps.json
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\Attendance.runtimeconfig.json
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\Attendance.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\Attendance.pdb
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\itext.barcodes.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\itext.bouncy-castle-connector.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\itext.forms.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\itext.io.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\itext.kernel.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\itext.layout.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\itext.pdfa.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\itext.pdfua.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\itext.sign.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\itext.styledxmlparser.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\itext.svg.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\itext.commons.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\itextsharp.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\QuestPDF.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\runtimes\linux-arm64\native\libQuestPdfSkia.so
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\runtimes\linux-arm64\native\libqpdf.so
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libQuestPdfSkia.so
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libqpdf.so
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\runtimes\linux-x64\native\libQuestPdfSkia.so
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\runtimes\linux-x64\native\libqpdf.so
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\runtimes\osx-arm64\native\libQuestPdfSkia.dylib
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\runtimes\osx-arm64\native\libqpdf.dylib
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\runtimes\osx-x64\native\libQuestPdfSkia.dylib
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\runtimes\osx-x64\native\libqpdf.dylib
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\runtimes\win-x64\native\QuestPdfSkia.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\runtimes\win-x64\native\libgcc_s_seh-1.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\runtimes\win-x64\native\libstdc++-6.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\runtimes\win-x64\native\libwinpthread-1.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\runtimes\win-x64\native\qpdf.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\runtimes\win-x86\native\QuestPdfSkia.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\runtimes\win-x86\native\libgcc_s_dw2-1.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\runtimes\win-x86\native\libstdc++-6.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\runtimes\win-x86\native\libwinpthread-1.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\runtimes\win-x86\native\qpdf.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\obj\Debug\net8.0\Attendance.csproj.AssemblyReference.cache
+C:\Users\abhir\Downloads\Attendance\Attendance\obj\Debug\net8.0\Attendance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abhir\Downloads\Attendance\Attendance\obj\Debug\net8.0\Attendance.AssemblyInfoInputs.cache
+C:\Users\abhir\Downloads\Attendance\Attendance\obj\Debug\net8.0\Attendance.AssemblyInfo.cs
+C:\Users\abhir\Downloads\Attendance\Attendance\obj\Debug\net8.0\Attendance.csproj.CoreCompileInputs.cache
+C:\Users\abhir\Downloads\Attendance\Attendance\obj\Debug\net8.0\Attendance.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\abhir\Downloads\Attendance\Attendance\obj\Debug\net8.0\Attendance.RazorAssemblyInfo.cache
+C:\Users\abhir\Downloads\Attendance\Attendance\obj\Debug\net8.0\Attendance.RazorAssemblyInfo.cs
+C:\Users\abhir\Downloads\Attendance\Attendance\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\abhir\Downloads\Attendance\Attendance\obj\Debug\net8.0\scopedcss\bundle\Attendance.styles.css
+C:\Users\abhir\Downloads\Attendance\Attendance\obj\Debug\net8.0\scopedcss\projectbundle\Attendance.bundle.scp.css
+C:\Users\abhir\Downloads\Attendance\Attendance\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\abhir\Downloads\Attendance\Attendance\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\abhir\Downloads\Attendance\Attendance\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\abhir\Downloads\Attendance\Attendance\obj\Debug\net8.0\staticwebassets\msbuild.Attendance.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\abhir\Downloads\Attendance\Attendance\obj\Debug\net8.0\staticwebassets\msbuild.Attendance.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\abhir\Downloads\Attendance\Attendance\obj\Debug\net8.0\staticwebassets\msbuild.build.Attendance.props
+C:\Users\abhir\Downloads\Attendance\Attendance\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Attendance.props
+C:\Users\abhir\Downloads\Attendance\Attendance\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Attendance.props
+C:\Users\abhir\Downloads\Attendance\Attendance\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\abhir\Downloads\Attendance\Attendance\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\abhir\Downloads\Attendance\Attendance\obj\Debug\net8.0\Attendance.csproj.Up2Date
+C:\Users\abhir\Downloads\Attendance\Attendance\obj\Debug\net8.0\Attendance.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\obj\Debug\net8.0\refint\Attendance.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\obj\Debug\net8.0\Attendance.pdb
+C:\Users\abhir\Downloads\Attendance\Attendance\obj\Debug\net8.0\Attendance.genruntimeconfig.cache
+C:\Users\abhir\Downloads\Attendance\Attendance\obj\Debug\net8.0\ref\Attendance.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\itext.html2pdf.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\bin\Debug\net8.0\Rotativa.AspNetCore.dll
+C:\Users\abhir\Downloads\Attendance\Attendance\obj\Debug\net8.0\Attendance.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\appsettings.json
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-Black.ttf
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-BlackItalic.ttf
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-Bold.ttf
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-BoldItalic.ttf
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-ExtraBold.ttf
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-ExtraBoldItalic.ttf
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-ExtraLight.ttf
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-ExtraLightItalic.ttf
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-Italic.ttf
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-Light.ttf
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-LightItalic.ttf
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-Medium.ttf
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-MediumItalic.ttf
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-Regular.ttf
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-SemiBold.ttf
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-SemiBoldItalic.ttf
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-Thin.ttf
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-ThinItalic.ttf
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\OFL.txt
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\Attendance.staticwebassets.runtime.json
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\Attendance.exe
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\Attendance.deps.json
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\Attendance.runtimeconfig.json
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\Attendance.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\Attendance.pdb
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\itext.barcodes.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\itext.bouncy-castle-connector.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\itext.forms.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\itext.io.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\itext.kernel.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\itext.layout.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\itext.pdfa.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\itext.pdfua.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\itext.sign.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\itext.styledxmlparser.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\itext.svg.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\itext.commons.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\itext.html2pdf.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\itextsharp.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\QuestPDF.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\Rotativa.AspNetCore.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\linux-arm64\native\libQuestPdfSkia.so
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\linux-arm64\native\libqpdf.so
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libQuestPdfSkia.so
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libqpdf.so
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\linux-x64\native\libQuestPdfSkia.so
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\linux-x64\native\libqpdf.so
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\osx-arm64\native\libQuestPdfSkia.dylib
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\osx-arm64\native\libqpdf.dylib
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\osx-x64\native\libQuestPdfSkia.dylib
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\osx-x64\native\libqpdf.dylib
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\win-x64\native\QuestPdfSkia.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\win-x64\native\libgcc_s_seh-1.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\win-x64\native\libstdc++-6.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\win-x64\native\libwinpthread-1.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\win-x64\native\qpdf.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\win-x86\native\QuestPdfSkia.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\win-x86\native\libgcc_s_dw2-1.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\win-x86\native\libstdc++-6.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\win-x86\native\libwinpthread-1.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\win-x86\native\qpdf.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\obj\Debug\net8.0\Attendance.csproj.AssemblyReference.cache
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\obj\Debug\net8.0\Attendance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\obj\Debug\net8.0\Attendance.AssemblyInfoInputs.cache
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\obj\Debug\net8.0\Attendance.AssemblyInfo.cs
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\obj\Debug\net8.0\Attendance.csproj.CoreCompileInputs.cache
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\obj\Debug\net8.0\Attendance.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\obj\Debug\net8.0\Attendance.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\obj\Debug\net8.0\Attendance.RazorAssemblyInfo.cache
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\obj\Debug\net8.0\Attendance.RazorAssemblyInfo.cs
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\obj\Debug\net8.0\staticwebassets\msbuild.Attendance.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\obj\Debug\net8.0\staticwebassets\msbuild.build.Attendance.props
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Attendance.props
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Attendance.props
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\obj\Debug\net8.0\scopedcss\bundle\Attendance.styles.css
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\obj\Debug\net8.0\scopedcss\projectbundle\Attendance.bundle.scp.css
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\obj\Debug\net8.0\Attendance.csproj.Up2Date
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\obj\Debug\net8.0\Attendance.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\obj\Debug\net8.0\refint\Attendance.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\obj\Debug\net8.0\Attendance.pdb
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\obj\Debug\net8.0\Attendance.genruntimeconfig.cache
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\obj\Debug\net8.0\ref\Attendance.dll
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\91620\Desktop\Project\Attendance Web\Attendance\obj\Debug\net8.0\scopedcss\Views\Shared\Manage.cshtml.rz.scp.css
+C:\Users\abhir\Downloads\Attendance Web\Attendance\obj\Debug\net8.0\Attendance.csproj.AssemblyReference.cache
+C:\Users\abhir\Downloads\Attendance Web\Attendance\obj\Debug\net8.0\Attendance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abhir\Downloads\Attendance Web\Attendance\obj\Debug\net8.0\Attendance.AssemblyInfoInputs.cache
+C:\Users\abhir\Downloads\Attendance Web\Attendance\obj\Debug\net8.0\Attendance.AssemblyInfo.cs
+C:\Users\abhir\Downloads\Attendance Web\Attendance\obj\Debug\net8.0\Attendance.csproj.CoreCompileInputs.cache
+C:\Users\abhir\Downloads\Attendance Web\Attendance\obj\Debug\net8.0\Attendance.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\abhir\Downloads\Attendance Web\Attendance\obj\Debug\net8.0\Attendance.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\abhir\Downloads\Attendance Web\Attendance\obj\Debug\net8.0\Attendance.RazorAssemblyInfo.cache
+C:\Users\abhir\Downloads\Attendance Web\Attendance\obj\Debug\net8.0\Attendance.RazorAssemblyInfo.cs
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\appsettings.json
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\Attendance.staticwebassets.runtime.json
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\Attendance.staticwebassets.endpoints.json
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-Black.ttf
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-BlackItalic.ttf
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-Bold.ttf
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-BoldItalic.ttf
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-ExtraBold.ttf
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-ExtraBoldItalic.ttf
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-ExtraLight.ttf
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-ExtraLightItalic.ttf
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-Italic.ttf
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-Light.ttf
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-LightItalic.ttf
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-Medium.ttf
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-MediumItalic.ttf
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-Regular.ttf
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-SemiBold.ttf
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-SemiBoldItalic.ttf
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-Thin.ttf
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\Lato-ThinItalic.ttf
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\LatoFont\OFL.txt
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\Attendance.exe
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\Attendance.deps.json
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\Attendance.runtimeconfig.json
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\Attendance.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\Attendance.pdb
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\itext.barcodes.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\itext.bouncy-castle-connector.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\itext.forms.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\itext.io.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\itext.kernel.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\itext.layout.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\itext.pdfa.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\itext.pdfua.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\itext.sign.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\itext.styledxmlparser.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\itext.svg.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\itext.commons.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\itext.html2pdf.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\itextsharp.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\QuestPDF.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\Rotativa.AspNetCore.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\linux-arm64\native\libQuestPdfSkia.so
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\linux-arm64\native\libqpdf.so
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libQuestPdfSkia.so
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libqpdf.so
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\linux-x64\native\libQuestPdfSkia.so
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\linux-x64\native\libqpdf.so
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\osx-arm64\native\libQuestPdfSkia.dylib
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\osx-arm64\native\libqpdf.dylib
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\osx-x64\native\libQuestPdfSkia.dylib
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\osx-x64\native\libqpdf.dylib
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\win-x64\native\QuestPdfSkia.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\win-x64\native\libgcc_s_seh-1.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\win-x64\native\libstdc++-6.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\win-x64\native\libwinpthread-1.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\win-x64\native\qpdf.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\win-x86\native\QuestPdfSkia.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\win-x86\native\libgcc_s_dw2-1.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\win-x86\native\libstdc++-6.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\win-x86\native\libwinpthread-1.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\win-x86\native\qpdf.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\obj\Debug\net8.0\scopedcss\Views\Shared\Manage.cshtml.rz.scp.css
+C:\Users\abhir\Downloads\Attendance Web\Attendance\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\abhir\Downloads\Attendance Web\Attendance\obj\Debug\net8.0\scopedcss\bundle\Attendance.styles.css
+C:\Users\abhir\Downloads\Attendance Web\Attendance\obj\Debug\net8.0\scopedcss\projectbundle\Attendance.bundle.scp.css
+C:\Users\abhir\Downloads\Attendance Web\Attendance\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\abhir\Downloads\Attendance Web\Attendance\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\abhir\Downloads\Attendance Web\Attendance\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\abhir\Downloads\Attendance Web\Attendance\obj\Debug\net8.0\staticwebassets\msbuild.Attendance.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\abhir\Downloads\Attendance Web\Attendance\obj\Debug\net8.0\staticwebassets\msbuild.Attendance.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\abhir\Downloads\Attendance Web\Attendance\obj\Debug\net8.0\staticwebassets\msbuild.build.Attendance.props
+C:\Users\abhir\Downloads\Attendance Web\Attendance\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Attendance.props
+C:\Users\abhir\Downloads\Attendance Web\Attendance\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Attendance.props
+C:\Users\abhir\Downloads\Attendance Web\Attendance\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\abhir\Downloads\Attendance Web\Attendance\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\abhir\Downloads\Attendance Web\Attendance\obj\Debug\net8.0\Attendance.csproj.Up2Date
+C:\Users\abhir\Downloads\Attendance Web\Attendance\obj\Debug\net8.0\Attendance.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\obj\Debug\net8.0\refint\Attendance.dll
+C:\Users\abhir\Downloads\Attendance Web\Attendance\obj\Debug\net8.0\Attendance.pdb
+C:\Users\abhir\Downloads\Attendance Web\Attendance\obj\Debug\net8.0\Attendance.genruntimeconfig.cache
+C:\Users\abhir\Downloads\Attendance Web\Attendance\obj\Debug\net8.0\ref\Attendance.dll

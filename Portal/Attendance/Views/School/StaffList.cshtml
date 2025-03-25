@@ -1,0 +1,132 @@
+﻿@{
+    ViewData["Title"] = "Attendance";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model StaffListModel
+
+<main class="app-main">
+    <!--begin::App Content Header-->
+    <div class="app-content-header">
+        <!--begin::Container-->
+        <div class="container-fluid">
+            <!--begin::Row-->
+            <div class="row">
+                <div class="col-sm-6"><h3 class="mb-0">Staff List</h3></div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-end">
+                    </ol>
+                </div>
+            </div>
+            <!--end::Row-->
+        </div>
+        <!--end::Container-->
+    </div>
+
+    <div class="app-content">
+        <!--begin::Container-->
+        <div class="container-fluid">
+            <!--begin::Row-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card mb-4">
+                        <div class="card-header"><h3 class="card-title">Staff List</h3></div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10px">#</th>
+                                        <th> Code</th>
+                                        <th> Name</th>
+                                        <th>Gender</th>
+                                        <th> Department</th>
+                                        <th> Mobile Number</th>
+                                        <th>Designation</th>
+                                        <th>Password</th>
+
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model.StaffList)
+                                    {
+                                        <tr>
+                                            <td>@item.srno</td>
+                                            <td>@item.teacherCode</td>
+                                            <td>@item.teacherName</td>
+                                            <td>@item.teacherGender</td>
+                                            <td>@item.teacherDepartment</td>
+                                            <td>@item.teacherMobileNumber</td>
+                                            <td>@item.teacherDesignation</td>
+                                            <td>@item.teacherPassword</td>
+
+
+                                            <td>
+                                                <span>
+                                                    <a href="@Url.Action("EditStaffDetail","Staff",new{id=item.teacherId})" class="btn btn-sm btn-primary">Edit</a>
+
+                                                    <a href="javascript:void(0);" data-for="staff" data-id="@item.teacherId" id="deletebtn"
+                                                       class="btn btn-sm btn-primary">Delete</a>
+                                                </span>
+                                            </td>
+                                        </tr>
+
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+</main>
+
+@section Scripts{
+
+    <script>
+
+        $(document).ready(function () {
+            $("#deletebtn").on("click", function () {
+                var id = $(this).data("id");
+                var actionFor = $(this).data("for");
+
+                Swal.fire({
+                    title: "Are you sure?",
+                    text: "You won't be able to revert this!",
+                    icon: "warning",
+                    showCancelButton: true,
+                    confirmButtonColor: "#d33",
+                    cancelButtonColor: "#3085d6",
+                    confirmButtonText: "Yes, delete it!",
+                    cancelButtonText: "No, cancel!"
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        // Call the delete function or send an AJAX request
+                        $.ajax({
+                            url: "@Url.Action("StaffDelete","Staff")", // Adjust your controller route
+                            type: "POST",
+                            data: { id: id},
+                            success: function (response) {
+                                if(response.success){
+                                     Swal.fire("Deleted!", "Your record has been deleted.", "success").then(() => {
+                                        location.reload(); // Reload the page after delete
+                                    });
+                                }else{
+                                    Swal.fire("Cancelled", "Your record has been not deleted", "info");
+                                } 
+                            },
+                            error: function () {
+                                Swal.fire("Error!", "Something went wrong.", "error");
+                            }
+                        });
+                    } else {
+                        Swal.fire("Cancelled", "Your data is safe 😊", "info");
+                    }
+                });
+            });
+        });
+    </script>
+}

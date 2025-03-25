@@ -1,0 +1,281 @@
+﻿@model MonthlyReportViewModel
+@{
+    Layout = null;
+    ViewData["Title"] = "Monthly Attendance";
+    // Layout = "~/Views/Shared/_Layout.cshtml";
+    // var dataTable = ViewData["ReportData"] as System.Data.DataTable;
+    // int daysInMonth = Convert.ToInt32(ViewData["daysInMonth"]);
+    // var Month = ViewData["Month"];
+    var dataTable = Model.ReportData; // Fetch DataTable from model
+    int daysInMonth = Model.DaysInMonth;
+    var month = Model.Month;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Attendance</title>
+
+
+    @* from here *@
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>AdminLTE v4 | Dashboard</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content=" Dashboard" />
+
+    <style>
+        table {
+        width: 100%;
+        }
+
+        table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        font-size: 14px;
+        }
+
+        td {
+        padding-left: 2px;
+        }
+
+        .fs-small {
+        font-size: 11px;
+        text-align: center;
+        }
+
+        .fs-medium {
+        font-size: 12px;
+        }
+
+        .no-print {
+        display: block; /* Visible on screen */
+        }
+    </style>
+
+</head>
+<body class="layout-fixed sidebar-expand-lg bg-body-tertiary">
+
+
+
+    @if (dataTable != null && dataTable.Rows.Count > 0)
+    {
+        int printtablecount = 3;
+        int totalrow = dataTable.Rows.Count;
+
+
+        @foreach (System.Data.DataRow row in dataTable.Rows)
+        {
+            string OrgName = string.IsNullOrEmpty(row["organisationName"]?.ToString()) ? "0" : row["organisationName"].ToString();
+            string OrgAddress = string.IsNullOrEmpty(row["organisationAddress"]?.ToString()) ? "0" : row["organisationAddress"].ToString();
+            string EmpCode = string.IsNullOrEmpty(row["teacherCode"]?.ToString()) ? "0" : row["teacherCode"].ToString();
+            string Name = string.IsNullOrEmpty(row["teacherName"]?.ToString()) ? "0" : row["teacherName"].ToString();
+            string Designation = string.IsNullOrEmpty(row["teacherDesignation"]?.ToString()) ? "0" : row["teacherDesignation"].ToString();
+            @* string Present = string.IsNullOrEmpty(row["Present"]?.ToString()) ? "0" : row["Present"].ToString();
+            string HL = string.IsNullOrEmpty(row["HL"]?.ToString()) ? "0" : row["HL"].ToString();
+            string WO = string.IsNullOrEmpty(row["WO"]?.ToString()) ? "0" : row["WO"].ToString();
+            string Absent = string.IsNullOrEmpty(row["Absent"]?.ToString()) ? "0" : row["Absent"].ToString();
+            string Leave = string.IsNullOrEmpty(row["Leave"]?.ToString()) ? "0" : row["Leave"].ToString();
+            string PaidDays = string.IsNullOrEmpty(row["PaidDays"]?.ToString()) ? "0" : row["PaidDays"].ToString();
+            string LateHrs = string.IsNullOrEmpty(row["LateHrs"]?.ToString()) ? "0" : row["LateHrs"].ToString();
+            string WorkHrs = string.IsNullOrEmpty(row["WorkHrs"]?.ToString()) ? "0" : row["WorkHrs"].ToString();
+            string OvTim = string.IsNullOrEmpty(row["OvTim"]?.ToString()) ? "0" : row["OvTim"].ToString(); *@
+
+            string[] ArivalTime = new string[daysInMonth]; // Initialize an array with 31 elements
+            string[] DeptTime = new string[daysInMonth]; // Initialize an array with 31 elements
+            string[] WorkingHrs = new string[daysInMonth]; // Initialize an array with 31 elements
+            string[] OTime = new string[daysInMonth]; // Initialize an array with 31 elements
+            string[] Sts = new string[daysInMonth]; // Initialize an array with 31 elements
+
+
+            @for (int i = 0; i < daysInMonth; i++)
+            {
+                string Days = row[$"{i+1}"].ToString();
+
+                string arrival = "00:00", departure = "00:00";
+
+                @* Testing COde *@
+
+               @*  string arrival = "07:08", departure = "14:35";
+                if(i%2==0){
+                    departure = "0";
+                }
+                if(i==3){
+                    arrival = "0";
+                } *@
+
+                double whrs = 0;
+                if (!string.IsNullOrEmpty(Days) && Days.Contains("-"))
+                {
+                    string[] parts = Days.Split('-');
+                    arrival = parts[0].Trim();  // Before '-'
+                    departure = parts[1].Trim(); // After '-'
+
+                }
+
+                TimeSpan startTime = TimeSpan.Parse(arrival);
+                TimeSpan endTime = TimeSpan.Parse(departure);
+
+                 
+
+                @* if (arrival != "00:00" || departure != "00:00") *@
+              
+               @*  if (startTime == TimeSpan.Zero || endTime == TimeSpan.Zero)
+                {
+                    Sts[i] = "A";
+                }else{
+                    Sts[i] = "P";
+                    whrs = (endTime - startTime).TotalHours; 
+                }
+                
+                whrs = (endTime - startTime).TotalHours; *@
+
+                ArivalTime[i] = @arrival; // Fetch data from columns named "1", "2", ..., "31"
+                DeptTime[i] = @departure;
+                if (departure == "00:00" || arrival == "00:00")
+                {
+                    Sts[i] = "A";
+                    WorkingHrs[i] = "00:00"; // Fetch data from columns named "1", "2", ..., "31"
+                }else{
+                    Sts[i] = "P";
+                    // Calculate working duration
+                    TimeSpan workDuration = endTime - startTime;
+
+                    // Format as HH:mm
+                    WorkingHrs[i] = workDuration.ToString(@"hh\:mm");
+                    @* WorkingHrs[i] = @whrs.ToString("00:00"); // Fetch data from columns named "1", "2", ..., "31" *@
+                }
+                OTime[i] = "00:00";
+            }
+
+            if (printtablecount == 3 && totalrow > 0)
+            {
+                <div style="margin-bottom:10px;page-break-before: always;">
+                    <div style="text-align:center; font-size:18px; font-weight:600;text-transform: capitalize;" class="downloadPdfBtn">Monthly Performance Report </div>
+                    <div style="text-align:left; font-size:12px; font-weight:600;text-transform: capitalize;"> Company Name : @OrgName</div>
+                    <div style="text-align:left; font-size:12px; font-weight:600;text-transform: capitalize;">Branch : @OrgAddress</div>
+                    <div style="text-align:left; font-size:12px; font-weight:600;text-transform: capitalize;">Department : DEMO</div>
+                    <div style="text-align:left; font-size:12px; font-weight:600;text-transform: capitalize;">Month : @month</div>
+                </div>
+                printtablecount = 0;
+            }
+
+            <table style="margin-bottom:15px;">
+                <thead>
+                    <tr>
+                        <th>EmpCode</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Present</th>
+                        <th>HL</th>
+                        <th>WO</th>
+                        <th>Absent</th>
+                        <th>Leave</th>
+                        <th>PaidDays</th>
+                        <th>LateHrs.</th>
+                        <th>WorkHrs.</th>
+                        <th>OvTim</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@EmpCode</td>
+                        <td>@Name</td>
+                        <td>@Designation</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table style="margin-bottom:25px;">
+                <thead>
+                <th></th>
+                    @for (int i = 1; i <= daysInMonth; i++)
+                    {
+                    <th>@i</th>  @* Display day numbers in table header *@
+                    }
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="fs-medium">Arrived Time</td>
+                        @for (int i = 0; i < daysInMonth; i++)
+                        {
+                            <td class="fs-small">@ArivalTime[i]</td>  @* Display day numbers in table header *@
+                        }
+                    </tr>
+                    <tr>
+                        <td class="fs-medium">Dept. Time</td>
+                        @for (int i = 0; i < daysInMonth; i++)
+                        {
+                            <td class="fs-small">@DeptTime[i]</td>  @* Display day numbers in table header *@
+                        }
+                    </tr>
+                    <tr>
+                        <td class="fs-medium">Working Hrs.</td>
+                        @for (int i = 0; i < daysInMonth; i++)
+                        {
+                            <td class="fs-small">@WorkingHrs[i]</td>  @* Display day numbers in table header *@
+                        }
+                    </tr>
+                    <tr>
+                        <td class="fs-medium">O. Times hrs.</td>
+                        @for (int i = 0; i < daysInMonth; i++)
+                        {
+                            <td class="fs-small">@OTime[i]</td>  @* Display day numbers in table header *@
+                        }
+                    </tr>
+                    <tr>
+                        <td class="fs-medium">Status</td>
+                        @for (int i = 0; i < daysInMonth; i++)
+                        {
+                            <td class="fs-small">@Sts[i]</td>  @* Display day numbers in table header *@
+                        }
+                    </tr>
+                </tbody>
+            </table>
+
+            totalrow--;
+            printtablecount++; 
+        }
+    }
+    <div class="card-footer">
+        <button type="submit" class="btn btn-primary downloadPdfBtn">Monthly Performance Report</button>
+    </div>
+    <script>
+      
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Select the button using querySelector (if only one button exists)
+             
+            let monthyear = "@ViewBag.MonthYear";
+
+             let url = `/Report/MonthlyAttendencePdfGenerate?monthyear=${encodeURIComponent(monthyear)}`;
+            document.querySelector(".downloadPdfBtn")?.addEventListener("click", function () {
+                // Properly encode URL parameters to avoid issues
+
+                window.location.href = url;
+            });
+
+            // If there are multiple buttons, use a loop
+            let buttons = document.getElementsByClassName("downloadPdfBtn");
+            for (let i = 0; i < buttons.length; i++) {
+                buttons[i].addEventListener("click", function () {
+                     window.location.href = url;
+                });
+            }
+        });
+    </script>
+
+</body>
+</html>

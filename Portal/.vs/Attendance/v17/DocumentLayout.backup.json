@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\abhir\\Downloads\\Attendance Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4829E9-6BB9-459F-8D8D-632E26295E41}|Attendance\\Attendance.csproj|c:\\users\\abhir\\downloads\\attendance web\\attendance\\repository\\organisationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF4829E9-6BB9-459F-8D8D-632E26295E41}|Attendance\\Attendance.csproj|solutionrelative:attendance\\repository\\organisationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4829E9-6BB9-459F-8D8D-632E26295E41}|Attendance\\Attendance.csproj|c:\\users\\abhir\\downloads\\attendance web\\attendance\\controllers\\organisationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF4829E9-6BB9-459F-8D8D-632E26295E41}|Attendance\\Attendance.csproj|solutionrelative:attendance\\controllers\\organisationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4829E9-6BB9-459F-8D8D-632E26295E41}|Attendance\\Attendance.csproj|c:\\users\\abhir\\downloads\\attendance web\\attendance\\views\\organisation\\editorganisation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF4829E9-6BB9-459F-8D8D-632E26295E41}|Attendance\\Attendance.csproj|solutionrelative:attendance\\views\\organisation\\editorganisation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4829E9-6BB9-459F-8D8D-632E26295E41}|Attendance\\Attendance.csproj|c:\\users\\abhir\\downloads\\attendance web\\attendance\\views\\organisation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF4829E9-6BB9-459F-8D8D-632E26295E41}|Attendance\\Attendance.csproj|solutionrelative:attendance\\views\\organisation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4829E9-6BB9-459F-8D8D-632E26295E41}|Attendance\\Attendance.csproj|c:\\users\\abhir\\downloads\\attendance web\\attendance\\models\\organisation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF4829E9-6BB9-459F-8D8D-632E26295E41}|Attendance\\Attendance.csproj|solutionrelative:attendance\\models\\organisation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4829E9-6BB9-459F-8D8D-632E26295E41}|Attendance\\Attendance.csproj|c:\\users\\abhir\\downloads\\attendance web\\attendance\\views\\organisation\\addorganisation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF4829E9-6BB9-459F-8D8D-632E26295E41}|Attendance\\Attendance.csproj|solutionrelative:attendance\\views\\organisation\\addorganisation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4829E9-6BB9-459F-8D8D-632E26295E41}|Attendance\\Attendance.csproj|c:\\users\\abhir\\downloads\\attendance web\\attendance\\views\\staff\\editstaffdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF4829E9-6BB9-459F-8D8D-632E26295E41}|Attendance\\Attendance.csproj|solutionrelative:attendance\\views\\staff\\editstaffdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4829E9-6BB9-459F-8D8D-632E26295E41}|Attendance\\Attendance.csproj|c:\\users\\abhir\\downloads\\attendance web\\attendance\\views\\shared\\adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF4829E9-6BB9-459F-8D8D-632E26295E41}|Attendance\\Attendance.csproj|solutionrelative:attendance\\views\\shared\\adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4829E9-6BB9-459F-8D8D-632E26295E41}|Attendance\\Attendance.csproj|c:\\users\\abhir\\downloads\\attendance web\\attendance\\controllers\\admindashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF4829E9-6BB9-459F-8D8D-632E26295E41}|Attendance\\Attendance.csproj|solutionrelative:attendance\\controllers\\admindashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF4829E9-6BB9-459F-8D8D-632E26295E41}|Attendance\\Attendance.csproj|c:\\users\\abhir\\downloads\\attendance web\\attendance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF4829E9-6BB9-459F-8D8D-632E26295E41}|Attendance\\Attendance.csproj|solutionrelative:attendance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Organisation.cs",
+              "DocumentMoniker": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\Models\\Organisation.cs",
+              "RelativeDocumentMoniker": "Attendance\\Models\\Organisation.cs",
+              "ToolTip": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\Models\\Organisation.cs",
+              "RelativeToolTip": "Attendance\\Models\\Organisation.cs",
+              "ViewState": "AgIAABgAAAAAwMzMzMz8vyAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T02:59:00.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrganisationController.cs",
+              "DocumentMoniker": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\Controllers\\OrganisationController.cs",
+              "RelativeDocumentMoniker": "Attendance\\Controllers\\OrganisationController.cs",
+              "ToolTip": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\Controllers\\OrganisationController.cs",
+              "RelativeToolTip": "Attendance\\Controllers\\OrganisationController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAUwDIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T02:51:12.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddOrganisation.cshtml",
+              "DocumentMoniker": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\Views\\Organisation\\AddOrganisation.cshtml",
+              "RelativeDocumentMoniker": "Attendance\\Views\\Organisation\\AddOrganisation.cshtml",
+              "ToolTip": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\Views\\Organisation\\AddOrganisation.cshtml",
+              "RelativeToolTip": "Attendance\\Views\\Organisation\\AddOrganisation.cshtml",
+              "ViewState": "AgIAAAIAAAAAPDMzMzMLwBsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-18T03:28:50.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\Views\\Organisation\\Index.cshtml",
+              "RelativeDocumentMoniker": "Attendance\\Views\\Organisation\\Index.cshtml",
+              "ToolTip": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\Views\\Organisation\\Index.cshtml",
+              "RelativeToolTip": "Attendance\\Views\\Organisation\\Index.cshtml",
+              "ViewState": "AgIAAD4AAAAAMzMzMzMbwEMAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-19T03:56:33.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrganisationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\Repository\\OrganisationRepository.cs",
+              "RelativeDocumentMoniker": "Attendance\\Repository\\OrganisationRepository.cs",
+              "ToolTip": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\Repository\\OrganisationRepository.cs",
+              "RelativeToolTip": "Attendance\\Repository\\OrganisationRepository.cs",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAUwPUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T02:53:04.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditOrganisation.cshtml",
+              "DocumentMoniker": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\Views\\Organisation\\EditOrganisation.cshtml",
+              "RelativeDocumentMoniker": "Attendance\\Views\\Organisation\\EditOrganisation.cshtml",
+              "ToolTip": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\Views\\Organisation\\EditOrganisation.cshtml",
+              "RelativeToolTip": "Attendance\\Views\\Organisation\\EditOrganisation.cshtml",
+              "ViewState": "AgIAAC0AAAAAMTMzMzMLwDwAAACKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-19T03:49:36.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EditStaffDetail.cshtml",
+              "DocumentMoniker": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\Views\\Staff\\EditStaffDetail.cshtml",
+              "RelativeDocumentMoniker": "Attendance\\Views\\Staff\\EditStaffDetail.cshtml",
+              "ToolTip": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\Views\\Staff\\EditStaffDetail.cshtml",
+              "RelativeToolTip": "Attendance\\Views\\Staff\\EditStaffDetail.cshtml",
+              "ViewState": "AgIAAGMAAAAAMDMzMzMLwGkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-19T03:50:41.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\Views\\Shared\\AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "Attendance\\Views\\Shared\\AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\Views\\Shared\\AdminLayout.cshtml",
+              "RelativeToolTip": "Attendance\\Views\\Shared\\AdminLayout.cshtml",
+              "ViewState": "AgIAAHAAAAAAMAAAAAABwHcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T19:20:32.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\Program.cs",
+              "RelativeDocumentMoniker": "Attendance\\Program.cs",
+              "ToolTip": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\Program.cs",
+              "RelativeToolTip": "Attendance\\Program.cs",
+              "ViewState": "AgIAAAsAAACAMTMzMzMLwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T16:32:54.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminDashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\Controllers\\AdminDashboardController.cs",
+              "RelativeDocumentMoniker": "Attendance\\Controllers\\AdminDashboardController.cs",
+              "ToolTip": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\Controllers\\AdminDashboardController.cs",
+              "RelativeToolTip": "Attendance\\Controllers\\AdminDashboardController.cs",
+              "ViewState": "AgIAAAEAAABwzMzMzMwiwA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T01:57:30.29Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

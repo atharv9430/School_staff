@@ -1,0 +1,129 @@
+﻿@model Attendance.Models.Staff;
+@{
+    ViewData["Title"] = "Attendance";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<main class="app-main">
+    <!--begin::App Content Header-->
+    <div class="app-content-header">
+        <!--begin::Container-->
+        <div class="container-fluid">
+            <!--begin::Row-->
+            <div class="row">
+                <div class="col-sm-6"><h3 class="mb-0">Edit Staff Details</h3></div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-end">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Staff Details</li>
+                    </ol>
+                </div>
+            </div>
+            <!--end::Row-->
+        </div>
+
+    </div>
+
+
+    <div class="app-content">
+
+        <div class="container-fluid bg-white p-4"> 
+            <form action="@Url.Action("UpdateStaffDetail","Staff")" method="post">
+                <div class="row g-4">
+                    <input type="hidden" value="@Model.teacherId" name="teacherId"/>
+                    <div class="col-md-3 mb-3">
+                        <label for="staffName" class="form-label">Staff Code</label>
+                        <input type="text" class="form-control" id="txt_name" aria-describedby="nameHelp" name="teacherCode" value="@Model.teacherCode" />
+                        <div id="emailHelp" class="form-text">
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="text" class="form-label">Staff Name</label>
+                        <input type="text" class="form-control" id="stfName" name="teacherName" value="@Model.teacherName" />
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="text" class="form-label">Staff Gender</label>
+                        <div class="col-lg-12">
+                            <select id="inputState" class="form-control" name="teacherGender" required>
+                                <option value="" disabled selected>Choose...</option>
+                                <option value="Male" selected="@(Model.teacherGender == "Male")">Male</option>
+                                <option value="Female" selected="@(Model.teacherGender == "Female")">Female</option>
+                            </select> 
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="text" class="form-label">Staff Type</label>
+                        <input type="text" class="form-control" id="stfName" name="teacherType" value="@Model.teacherType" />
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="text" class="form-label">Staff Department</label>
+                        <input type="text" class="form-control" id="stfName" name="teacherDepartment" value="@Model.teacherDepartment" />
+                    </div>
+                    <div class="col-md-3  mb-3">
+                        <label for="text" class="form-label">Staff Designation</label>
+                        <input type="text" class="form-control" id="stfName" name="teacherDesignation" value="@Model.teacherDesignation" />
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="number" class="form-label">Staff Mobile Number</label>
+                        <input type="number" class="form-control" id="stfName" name="teacherMobileNumber" value="@Model.teacherMobileNumber" />
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="date" class="form-label">Staff Joining date</label>
+                        <input type="text" class="form-control" id="stfjoiningDate" name="teacherJoiningDate" value="@Model.teacherJoiningDate" />
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="date" class="form-label">Staff Email</label>
+                        <input type="text" class="form-control" id="stfEmail" name="teacherEmailId" value="@Model.teacherEmailId" />
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="passsword" class="form-label">Staff Password</label>
+                        <input type="text" class="form-control" id="stfPassword" name="teacherPassword" value="@Model.teacherPassword" />
+                    </div>
+
+                    <div class="col-12 mb-3">
+                        <button type="submit" class="btn btn-primary" >Submit</button>
+                    </div>
+                </div>
+
+            </form>
+
+
+        </div>
+
+    </div>
+
+</main>
+
+@section Scripts{
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var isUpdated = '@TempData["isUpdated"]';
+            var responseMsg = '@TempData["responseMsg"]';
+            if (isUpdated === "True") {
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Success!',
+                    text: responseMsg,
+                    confirmButtonColor: '#3085d6',
+                    confirmButtonText: 'OK'
+                }).then((result) => {
+                     window.location.href = '@Url.Action("StaffList", "Staff")'; // Redirect to another page
+                });
+            }
+            else if (isUpdated === "False" && responseMsg) {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Error!',
+                    text: responseMsg,
+                    confirmButtonColor: '#d33',
+                    confirmButtonText: 'OK'
+                });
+            }
+        });
+    </script>
+
+
+}

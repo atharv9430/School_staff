@@ -1,0 +1,119 @@
+﻿@{
+    ViewData["Title"] = "Verify Device";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model StaffDeviceListModel
+
+<main class="app-main">
+    <!--begin::App Content Header-->
+    <div class="app-content-header">
+        <!--begin::Container-->
+        <div class="container-fluid">
+            <!--begin::Row-->
+            <div class="row">
+                <div class="col-sm-6"><h3 class="mb-0">Device Verification</h3></div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-end">
+                    </ol>
+                </div>
+            </div>
+            <!--end::Row-->
+        </div>
+        <!--end::Container-->
+    </div>
+
+    <div class="app-content">
+        <!--begin::Container-->
+        <div class="container-fluid">
+            <!--begin::Row-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card mb-4">
+                        <div class="card-header"><h3 class="card-title">Device Verification</h3></div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10px">#</th>
+                                        <th> Code</th>
+                                        <th> Name</th>
+
+
+                                        <th> Mobile Number</th>
+                                        <th>Device Id</th>
+
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @{
+                                        int srno = 0;
+                                    }
+                                    @foreach (var item in Model.StaffDeviceList)
+                                    {
+                                        srno++;
+                                        <tr>
+                                            <td>@srno</td>
+                                            <td>@item.teacherCode</td>
+                                            <td>@item.teacherName</td>
+                                            <td>@item.teacherMobileNumber</td>
+                                            <td>@item.deviceId</td>    
+                                            
+                                                <td>
+                                        @if (item.deviceStatus == 1)
+                                        {
+
+                                                    <a href="javascript:void(0);" onclick="updateStatus(@item.teacherId, 0)"
+                                                       class="btn btn-sm btn-primary">Remove Device</a>
+                                        }
+                                        else
+                                        {
+                                                    <a href="javascript:void(0);" onclick="updateStatus(@item.teacherId, 1)"
+                                                       class="btn btn-sm btn-danger">Inactive</a>
+                                        }
+                                        </td>
+                                           
+                                        </tr>
+
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                      
+                    </div>
+               
+                </div>
+               
+            </div>
+            
+
+        </div>
+        
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        function updateStatus(teacherId, status) {
+
+            if (confirm("Are you sure you want to update the status?")) {
+                $.ajax({
+                    url: '/DeviceVerification/UpdateDeviceStatus', 
+                    type: 'POST',
+                    data: { id: teacherId, status: status },
+                    success: function (response) {
+                        if (response.success) {
+                            location.reload(); 
+                        } else {
+                            alert("Failed to update status.");
+                        }
+                    },
+                    error: function () {
+                        alert("Error updating status.");
+                    }
+                });
+            }
+        }
+    </script>
+</main>
+
+

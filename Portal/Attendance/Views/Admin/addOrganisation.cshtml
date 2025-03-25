@@ -1,0 +1,99 @@
+﻿@{
+    ViewData["Title"] = "Attendance";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+
+<main class="app-main">
+    <!--begin::App Content Header-->
+    <div class="app-content-header">
+        <!--begin::Container-->
+        <div class="container-fluid">
+            <!--begin::Row-->
+            <div class="row">
+                <div class="col-sm-6"><h3 class="mb-0">Add Organisation</h3></div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-end">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">General Form</li>
+                    </ol>
+                </div>
+            </div>
+            <!--end::Row-->
+        </div>
+
+    </div>
+
+
+    <div class="app-content">
+
+        <div class="container-fluid">
+ 
+                    <div class="card card-primary card-outline mb-4 p-2">
+                         
+                        <form>
+
+                            <div class="row  row-cols-1 row-cols-sm-2 row-cols-md-3">
+                               
+                                <div class="col mb-3">
+                                    <label for="text" class="form-label">organisation Name</label>
+                                    <input type="text" class="form-control" id="ist" name="organisationName" />
+                                </div>
+
+                                <div class="col mb-3">
+                                    <label for="text" class="form-label">organisation Address</label>
+                                    <input type="text" class="form-control" id="iet" name="organisationAddress" />
+                                </div>
+                                <div class="col mb-3">
+                                    <label for="text" class="form-label">organisation Contact Number</label>
+                                    <input type="text" class="form-control" id="ost" name="organisationContactNumber" />
+                                </div>
+                                <div class="col mb-3">
+                                    <label for="text" class="form-label">organisation Latitude</label>
+                                    <input type="text" class="form-control" id="oet" name="organisationLatitude" />
+                                </div>
+                                <div class="col mb-3">
+                                    <label for="text" class="form-label">organisation Longitude</label>
+                                    <input type="text" class="form-control" id="ar" name="organisationLongitude" />
+                                </div>
+
+                            </div>
+
+                            <div class="card-footer">
+                                <button type="submit" class="btn btn-primary" asp-action="AddOrganisationDetail" asp-controller="ManageAdmin">Submit</button>
+                            </div>
+
+                        </form>
+
+                    </div>
+
+           
+
+        </div>
+
+    </div>
+
+</main>
+
+@section Scripts{
+<script>
+    function getLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(
+                function (position) {
+                    document.getElementById("oet").value = position.coords.latitude;
+                    document.getElementById("ar").value = position.coords.longitude;
+                },
+                function (error) {
+                    alert("Error getting location: " + error.message);
+                }
+            );
+        } else {
+            alert("Geolocation is not supported by this browser.");
+        }
+    }
+    $(document).ready(function () {
+        getLocation();
+    });
+</script>
+}

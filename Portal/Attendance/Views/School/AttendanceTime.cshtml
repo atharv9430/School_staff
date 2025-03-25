@@ -1,0 +1,89 @@
+﻿@{
+    ViewData["Title"] = "Attendance";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<main class="app-main">
+    <!--begin::App Content Header-->
+    <div class="app-content-header">
+        <!--begin::Container-->
+        <div class="container-fluid">
+            <!--begin::Row-->
+            <div class="row">
+                <div class="col-sm-6"><h3 class="mb-0">Manage Time</h3></div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-end">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">General Form</li>
+                    </ol>
+                </div>
+            </div>
+            <!--end::Row-->
+        </div>
+
+    </div>
+
+
+    <div class="app-content">
+
+        <div class="container-fluid">
+
+            <div class="row g-4">
+
+
+
+                <div class="col-md-6">
+
+                    <div class="card card-primary card-outline mb-4">
+
+                        <div class="card-header"><div class="card-title">Staff Registration</div></div>
+
+                        <form>
+
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <label for="shiftName" class="form-label">shiftName</label>
+                                    <input type="text" class="form-control" id="txt_name" aria-describedby="nameHelp" name="shiftId" />
+                                    <div id="emailHelp" class="form-text">
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="text" class="form-label">In Start Time</label>
+                                    <input type="text" class="form-control" id="ist" name="InStartTime" />
+                                </div>
+                             
+                                <div class="mb-3">
+                                    <label for="text" class="form-label">In End Time</label>
+                                    <input type="text" class="form-control" id="iet" name="InEndTime" />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="text" class="form-label">Out Start Time</label>
+                                    <input type="text" class="form-control" id="ost" name="OutStartTime" />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="text" class="form-label">Out End Time</label>
+                                    <input type="text" class="form-control" id="oet" name="OutEndTime" />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="number" class="form-label">Allowed Radius</label>
+                                    <input type="number" class="form-control" id="ar" name="allowedRadius" />
+                                </div>
+                                
+                            </div>
+
+                            <div class="card-footer">
+                                <button type="submit" class="btn btn-primary" asp-action="AddStaffTiming" asp-controller="Staff">Submit</button>
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</main>

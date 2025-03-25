@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\abhir\Downloads\Attendance Web\Attendance\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2025-03-19T04:23:45.3990269Z||;True|2025-03-18T09:10:11.1501443+05:30||;True|2025-03-16T14:48:17.9871910+05:30||;True|2025-03-16T14:43:44.1434500+05:30||;True|2025-03-13T09:06:35.9822569+05:30||;True|2025-03-09T18:47:39.7776114+05:30||;True|2025-03-05T23:44:43.9312334+05:30||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=sqldb.asapdb.com%3bDatabase=atharvas_Attendance%3bUser Id=kyt%3bPassword=login%401234!%40#%24%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

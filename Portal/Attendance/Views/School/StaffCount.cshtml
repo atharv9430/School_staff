@@ -1,0 +1,95 @@
+﻿@{
+    ViewData["Title"] = "Staff Status";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model StaffAttendanceStatusModel
+
+<main class="app-main">
+    <!--begin::App Content Header-->
+    <div class="app-content-header">
+        <!--begin::Container-->
+        <div class="container-fluid">
+            <!--begin::Row-->
+            <div class="row">
+                <div class="col-sm-6"><h3 class="mb-0">Staff Status</h3></div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-end">
+                    </ol>
+                </div>
+            </div>
+            <!--end::Row-->
+        </div>
+        <!--end::Container-->
+    </div>
+
+    <div class="app-content">
+        <!--begin::Container-->
+        <div class="container-fluid">
+            <!--begin::Row-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card mb-4">
+                        <div class="card-header"><h3 class="card-title">Staff Status</h3></div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10px">#</th>
+                                        <th> Code</th>
+                                        <th> Name</th> 
+                                        <th>Present</th>
+                                        <th>Absent</th>
+
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model.StaffAttendanceStatusList)
+                                    {
+                                        <tr>
+                                            <td>1</td>
+                                            <td>@item.teacherCode</td>
+                                            <td>@item.teacherName</td>
+                                            <td>@item.daysPresent</td>
+                                            <td>@item.daysAbsent</td>
+
+                                            @*    <td>
+                                                @if (item.status == 1)  
+                                                {
+
+                                                    <a href="@Url.Action("#", "#", new { id = item.id })" data-toggle="tooltip" data-placement="top" title="#"><span class="badge badge-xs badge-success">Active</span></a>
+                                                }
+                                                else
+                                                {
+                                                    <span class="badge badge-xs badge-danger">Inactive</span>
+                                                }
+                                            </td>
+                                            <td>
+                                                <span>
+                                                    <a href="@Url.Action("#", "#", new { id = item.id })" class="mr-4" data-toggle="modal" data-target="#modal-default" data-placement="top" title="Edit">   <span class="badge badge-xs badge-success">Edit</span>   </a>
+                                                    <a href="@Url.Action("Delete", "ControllerName", new { id = item.id })" data-toggle="tooltip" data-placement="top" title="Delete"><i class="fa fa-close color-danger"></i></a>
+                                                </span>
+                                            </td> *@
+                                        </tr>
+
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.card-body -->
+
+                    </div>
+                    <!-- /.card -->
+                    <!-- /.card -->
+                </div>
+                <!-- /.col -->
+                <!-- /.col -->
+            </div>
+            <!--end::Row-->
+
+        </div>
+        <!--end::Container-->
+    </div>
+
+</main>

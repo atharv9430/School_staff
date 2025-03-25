@@ -1,0 +1,99 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\plugins\bootstrap-colorpicker\**" />
+    <Compile Remove="wwwroot\plugins\bootstrap\**" />
+    <Compile Remove="wwwroot\plugins\bs-stepper\**" />
+    <Compile Remove="wwwroot\plugins\codemirror\**" />
+    <Compile Remove="wwwroot\plugins\datatables-autofill\**" />
+    <Compile Remove="wwwroot\plugins\datatables-bs4\**" />
+    <Compile Remove="wwwroot\plugins\datatables-buttons\**" />
+    <Compile Remove="wwwroot\plugins\datatables-colreorder\**" />
+    <Compile Remove="wwwroot\plugins\datatables-fixedcolumns\**" />
+    <Compile Remove="wwwroot\plugins\datatables-fixedheader\**" />
+    <Compile Remove="wwwroot\plugins\datatables-keytable\**" />
+    <Compile Remove="wwwroot\plugins\datatables-responsive\**" />
+    <Compile Remove="wwwroot\plugins\datatables-rowgroup\**" />
+    <Compile Remove="wwwroot\plugins\datatables-rowreorder\**" />
+    <Compile Remove="wwwroot\plugins\datatables-scroller\**" />
+    <Compile Remove="wwwroot\plugins\datatables-searchbuilder\**" />
+    <Compile Remove="wwwroot\plugins\datatables-searchpanes\**" />
+    <Compile Remove="wwwroot\plugins\datatables-select\**" />
+    <Content Remove="wwwroot\plugins\bootstrap-colorpicker\**" />
+    <Content Remove="wwwroot\plugins\bootstrap\**" />
+    <Content Remove="wwwroot\plugins\bs-stepper\**" />
+    <Content Remove="wwwroot\plugins\codemirror\**" />
+    <Content Remove="wwwroot\plugins\datatables-autofill\**" />
+    <Content Remove="wwwroot\plugins\datatables-bs4\**" />
+    <Content Remove="wwwroot\plugins\datatables-buttons\**" />
+    <Content Remove="wwwroot\plugins\datatables-colreorder\**" />
+    <Content Remove="wwwroot\plugins\datatables-fixedcolumns\**" />
+    <Content Remove="wwwroot\plugins\datatables-fixedheader\**" />
+    <Content Remove="wwwroot\plugins\datatables-keytable\**" />
+    <Content Remove="wwwroot\plugins\datatables-responsive\**" />
+    <Content Remove="wwwroot\plugins\datatables-rowgroup\**" />
+    <Content Remove="wwwroot\plugins\datatables-rowreorder\**" />
+    <Content Remove="wwwroot\plugins\datatables-scroller\**" />
+    <Content Remove="wwwroot\plugins\datatables-searchbuilder\**" />
+    <Content Remove="wwwroot\plugins\datatables-searchpanes\**" />
+    <Content Remove="wwwroot\plugins\datatables-select\**" />
+    <EmbeddedResource Remove="wwwroot\plugins\bootstrap-colorpicker\**" />
+    <EmbeddedResource Remove="wwwroot\plugins\bootstrap\**" />
+    <EmbeddedResource Remove="wwwroot\plugins\bs-stepper\**" />
+    <EmbeddedResource Remove="wwwroot\plugins\codemirror\**" />
+    <EmbeddedResource Remove="wwwroot\plugins\datatables-autofill\**" />
+    <EmbeddedResource Remove="wwwroot\plugins\datatables-bs4\**" />
+    <EmbeddedResource Remove="wwwroot\plugins\datatables-buttons\**" />
+    <EmbeddedResource Remove="wwwroot\plugins\datatables-colreorder\**" />
+    <EmbeddedResource Remove="wwwroot\plugins\datatables-fixedcolumns\**" />
+    <EmbeddedResource Remove="wwwroot\plugins\datatables-fixedheader\**" />
+    <EmbeddedResource Remove="wwwroot\plugins\datatables-keytable\**" />
+    <EmbeddedResource Remove="wwwroot\plugins\datatables-responsive\**" />
+    <EmbeddedResource Remove="wwwroot\plugins\datatables-rowgroup\**" />
+    <EmbeddedResource Remove="wwwroot\plugins\datatables-rowreorder\**" />
+    <EmbeddedResource Remove="wwwroot\plugins\datatables-scroller\**" />
+    <EmbeddedResource Remove="wwwroot\plugins\datatables-searchbuilder\**" />
+    <EmbeddedResource Remove="wwwroot\plugins\datatables-searchpanes\**" />
+    <EmbeddedResource Remove="wwwroot\plugins\datatables-select\**" />
+    <None Remove="wwwroot\plugins\bootstrap-colorpicker\**" />
+    <None Remove="wwwroot\plugins\bootstrap\**" />
+    <None Remove="wwwroot\plugins\bs-stepper\**" />
+    <None Remove="wwwroot\plugins\codemirror\**" />
+    <None Remove="wwwroot\plugins\datatables-autofill\**" />
+    <None Remove="wwwroot\plugins\datatables-bs4\**" />
+    <None Remove="wwwroot\plugins\datatables-buttons\**" />
+    <None Remove="wwwroot\plugins\datatables-colreorder\**" />
+    <None Remove="wwwroot\plugins\datatables-fixedcolumns\**" />
+    <None Remove="wwwroot\plugins\datatables-fixedheader\**" />
+    <None Remove="wwwroot\plugins\datatables-keytable\**" />
+    <None Remove="wwwroot\plugins\datatables-responsive\**" />
+    <None Remove="wwwroot\plugins\datatables-rowgroup\**" />
+    <None Remove="wwwroot\plugins\datatables-rowreorder\**" />
+    <None Remove="wwwroot\plugins\datatables-scroller\**" />
+    <None Remove="wwwroot\plugins\datatables-searchbuilder\**" />
+    <None Remove="wwwroot\plugins\datatables-searchpanes\**" />
+    <None Remove="wwwroot\plugins\datatables-select\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="itext" Version="9.0.0" />
+    <PackageReference Include="itext7" Version="9.0.0" />
+    <PackageReference Include="itext7.pdfhtml" Version="6.0.0" />
+    <PackageReference Include="iTextSharp" Version="5.5.13.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.12" />
+    <PackageReference Include="QuestPDF" Version="2025.1.1" />
+    <PackageReference Include="Rotativa.AspNetCore" Version="1.4.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\assets\" />
+  </ItemGroup>
+
+</Project>

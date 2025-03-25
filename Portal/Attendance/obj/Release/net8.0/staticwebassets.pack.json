@@ -1,0 +1,1289 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\Attendance.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Attendance.awflli336r.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\3613901.png",
+      "PackagePath": "staticwebassets\\3613901.png"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "PackagePath": "staticwebassets\\Rotativa\\wkhtmltopdf.exe"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\css\\adminlte.css",
+      "PackagePath": "staticwebassets\\css\\adminlte.css"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\css\\adminlte.css.map",
+      "PackagePath": "staticwebassets\\css\\adminlte.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\css\\adminlte.min.css",
+      "PackagePath": "staticwebassets\\css\\adminlte.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\css\\adminlte.min.css.map",
+      "PackagePath": "staticwebassets\\css\\adminlte.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\css\\adminlte.rtl.css",
+      "PackagePath": "staticwebassets\\css\\adminlte.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\css\\adminlte.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\adminlte.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\css\\adminlte.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\adminlte.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\css\\adminlte.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\adminlte.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\dist\\js\\adminlte.js",
+      "PackagePath": "staticwebassets\\dist\\js\\adminlte.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\js\\adminlte.js",
+      "PackagePath": "staticwebassets\\js\\adminlte.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\js\\adminlte.js.map",
+      "PackagePath": "staticwebassets\\js\\adminlte.js.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\js\\adminlte.min.js",
+      "PackagePath": "staticwebassets\\js\\adminlte.min.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\js\\adminlte.min.js.map",
+      "PackagePath": "staticwebassets\\js\\adminlte.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\bootstrapicon.css",
+      "PackagePath": "staticwebassets\\plugins\\bootstrapicon.css"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\daterangepicker\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\plugins\\daterangepicker\\daterangepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\daterangepicker\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\plugins\\daterangepicker\\daterangepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fontawesome-free\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\plugins\\fontawesome-free\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales-all.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales-all.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales-all.min.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales-all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\af.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\af.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\ar-dz.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\ar-dz.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\ar-kw.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\ar-kw.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\ar-ly.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\ar-ly.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\ar-ma.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\ar-ma.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\ar-sa.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\ar-sa.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\ar-tn.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\ar-tn.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\ar.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\ar.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\az.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\az.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\bg.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\bg.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\bs.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\bs.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\ca.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\ca.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\cs.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\cs.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\cy.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\cy.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\da.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\da.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\de-at.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\de-at.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\de.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\de.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\el.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\el.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\en-au.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\en-au.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\en-gb.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\en-gb.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\en-nz.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\en-nz.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\eo.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\eo.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\es-us.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\es-us.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\es.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\es.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\et.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\et.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\eu.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\eu.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\fa.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\fa.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\fi.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\fi.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\fr-ca.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\fr-ca.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\fr-ch.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\fr-ch.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\fr.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\fr.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\gl.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\gl.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\he.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\he.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\hi.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\hi.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\hr.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\hr.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\hu.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\hu.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\hy-am.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\hy-am.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\id.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\id.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\is.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\is.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\it.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\it.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\ja.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\ja.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\ka.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\ka.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\kk.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\kk.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\ko.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\ko.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\lb.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\lb.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\lt.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\lt.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\lv.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\lv.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\mk.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\mk.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\ms.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\ms.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\nb.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\nb.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\ne.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\ne.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\nl.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\nl.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\nn.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\nn.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\pl.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\pl.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\pt-br.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\pt-br.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\pt.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\pt.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\ro.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\ro.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\ru.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\ru.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\sk.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\sk.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\sl.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\sl.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\sq.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\sq.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\sr-cyrl.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\sr-cyrl.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\sr.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\sr.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\sv.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\sv.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\ta-in.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\ta-in.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\th.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\th.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\tr.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\tr.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\ug.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\ug.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\uk.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\uk.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\uz.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\uz.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\vi.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\vi.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\zh-cn.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\zh-cn.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\locales\\zh-tw.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\locales\\zh-tw.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\main.css",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\main.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\main.min.css",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\main.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\fullcalendar\\main.min.js",
+      "PackagePath": "staticwebassets\\plugins\\fullcalendar\\main.min.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\icheck-bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\plugins\\icheck-bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\icheck-bootstrap\\icheck-bootstrap.css",
+      "PackagePath": "staticwebassets\\plugins\\icheck-bootstrap\\icheck-bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\icheck-bootstrap\\icheck-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\plugins\\icheck-bootstrap\\icheck-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\inputmask\\inputmask.js",
+      "PackagePath": "staticwebassets\\plugins\\inputmask\\inputmask.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\inputmask\\inputmask.min.js",
+      "PackagePath": "staticwebassets\\plugins\\inputmask\\inputmask.min.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\inputmask\\jquery.inputmask.js",
+      "PackagePath": "staticwebassets\\plugins\\inputmask\\jquery.inputmask.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\inputmask\\jquery.inputmask.min.js",
+      "PackagePath": "staticwebassets\\plugins\\inputmask\\jquery.inputmask.min.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\jquery\\jquery.min.map",
+      "PackagePath": "staticwebassets\\plugins\\jquery\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\jquery\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\jquery\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\plugins\\jquery\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\jquery\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\plugins\\jquery\\jquery.slim.min.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\af.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\af.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\ar-dz.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\ar-dz.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\ar-kw.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\ar-kw.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\ar-ly.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\ar-ly.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\ar-ma.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\ar-ma.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\ar-sa.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\ar-sa.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\ar-tn.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\ar-tn.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\ar.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\ar.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\az.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\az.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\be.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\be.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\bg.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\bg.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\bm.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\bm.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\bn-bd.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\bn-bd.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\bn.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\bn.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\bo.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\bo.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\br.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\br.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\bs.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\bs.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\ca.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\ca.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\cs.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\cs.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\cv.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\cv.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\cy.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\cy.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\da.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\da.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\de-at.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\de-at.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\de-ch.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\de-ch.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\de.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\de.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\dv.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\dv.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\el.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\el.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\en-SG.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\en-SG.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\en-au.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\en-au.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\en-ca.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\en-ca.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\en-gb.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\en-gb.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\en-ie.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\en-ie.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\en-il.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\en-il.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\en-in.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\en-in.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\en-nz.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\en-nz.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\eo.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\eo.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\es-do.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\es-do.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\es-mx.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\es-mx.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\es-us.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\es-us.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\es.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\es.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\et.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\et.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\eu.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\eu.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\fa.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\fa.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\fi.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\fi.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\fil.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\fil.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\fo.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\fo.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\fr-ca.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\fr-ca.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\fr-ch.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\fr-ch.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\fr.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\fr.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\fy.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\fy.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\ga.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\ga.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\gd.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\gd.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\gl.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\gl.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\gom-deva.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\gom-deva.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\gom-latn.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\gom-latn.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\gu.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\gu.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\he.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\he.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\hi.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\hi.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\hr.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\hr.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\hu.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\hu.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\hy-am.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\hy-am.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\id.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\id.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\is.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\is.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\it-ch.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\it-ch.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\it.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\it.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\ja.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\ja.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\jv.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\jv.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\ka.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\ka.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\kk.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\kk.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\km.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\km.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\kn.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\kn.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\ko.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\ko.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\ku.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\ku.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\ky.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\ky.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\lb.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\lb.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\lo.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\lo.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\lt.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\lt.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\lv.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\lv.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\me.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\me.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\mi.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\mi.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\mk.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\mk.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\ml.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\ml.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\mn.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\mn.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\mr.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\mr.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\ms-my.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\ms-my.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\ms.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\ms.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\mt.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\mt.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\my.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\my.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\nb.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\nb.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\ne.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\ne.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\nl-be.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\nl-be.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\nl.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\nl.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\nn.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\nn.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\oc-lnc.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\oc-lnc.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\pa-in.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\pa-in.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\pl.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\pl.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\pt-br.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\pt-br.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\pt.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\pt.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\ro.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\ro.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\ru.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\ru.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\sd.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\sd.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\se.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\se.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\si.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\si.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\sk.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\sk.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\sl.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\sl.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\sq.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\sq.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\sr-cyrl.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\sr-cyrl.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\sr.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\sr.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\ss.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\ss.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\sv.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\sv.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\sw.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\sw.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\ta.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\ta.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\te.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\te.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\tet.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\tet.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\tg.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\tg.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\th.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\th.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\tk.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\tk.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\tl-ph.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\tl-ph.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\tlh.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\tlh.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\tr.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\tr.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\tzl.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\tzl.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\tzm-latn.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\tzm-latn.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\tzm.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\tzm.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\ug-cn.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\ug-cn.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\uk.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\uk.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\ur.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\ur.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\uz-latn.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\uz-latn.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\uz.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\uz.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\vi.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\vi.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\x-pseudo.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\x-pseudo.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\yo.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\yo.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\zh-cn.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\zh-cn.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\zh-hk.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\zh-hk.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\zh-mo.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\zh-mo.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locale\\zh-tw.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locale\\zh-tw.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locales.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locales.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locales.min.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locales.min.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\locales.min.js.map",
+      "PackagePath": "staticwebassets\\plugins\\moment\\locales.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\moment-with-locales.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\moment-with-locales.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\moment-with-locales.min.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\moment-with-locales.min.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\moment-with-locales.min.js.map",
+      "PackagePath": "staticwebassets\\plugins\\moment\\moment-with-locales.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\moment.min.js",
+      "PackagePath": "staticwebassets\\plugins\\moment\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\abhir\\Downloads\\Attendance Web\\Attendance\\wwwroot\\plugins\\moment\\moment.min.js.map",
+      "PackagePath": "staticwebassets\\plugins\\moment\\moment.min.js.map"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.Attendance.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.Attendance.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.Attendance.props",
+      "PackagePath": "build\\Attendance.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Attendance.props",
+      "PackagePath": "buildMultiTargeting\\Attendance.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.Attendance.props",
+      "PackagePath": "buildTransitive\\Attendance.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

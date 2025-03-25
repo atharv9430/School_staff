@@ -1,0 +1,119 @@
+﻿@{
+    ViewData["Title"] = "Attendance";
+    Layout = "~/Views/Shared/_Layout.cshtml";   
+}
+@model StaffCountModel
+
+    <main class="app-main">
+        <!--begin::App Content Header-->
+    <div class="app-content-header">
+        <!--begin::Container-->
+        <div class="container-fluid">
+            <!--begin::Row-->
+            <div class="row">
+                <div class="col-sm-6"><h3 class="mb-0">Dashboard</h3></div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-end">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+                    </ol>
+                </div>
+            </div>
+            <!--end::Row-->
+        </div>
+      
+<div class="app-content">
+
+    <div class="container-fluid">
+                @foreach (var item in Model.StaffCountList)
+        {   
+        <div class="row">
+            <div class="col-lg-3 col-6">
+                <div class="small-box text-bg-primary">
+                    <div class="inner">
+                        <h3>@item.total</h3> 
+                        <p>Total</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6">
+                <div class="small-box text-bg-success">
+                    <div class="inner">
+                                    <h3>@item.present<sup class="fs-5"></sup></h3>
+                        <p> Present</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6">
+                <div class="small-box text-bg-warning">
+                    <div class="inner">
+                                    <h3>@item.absent</h3>
+                        <p>Absent</p>
+                    </div>  
+                </div>
+               
+            </div>
+           
+        </div>
+      
+        }
+    </div>
+  
+</div>
+
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">Staff Attendance </h3>
+          
+        </div>
+        <!-- /.card-header -->
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th style="width: 10px">#</th>
+                                <th> Code</th>
+                                <th> Name</th>
+                                <th> PunchIn</th>
+                                <th> PunchOut</th>
+                                <th> Working_Hrs</th>
+                                <th> Status</th>
+                              
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.StaffStatusList)
+                            {
+                                <tr>
+                                    <td>@item.srno</td>
+                                    <td>@item.teacherCode</td>
+                                    <td>@item.teacherName</td>
+                                    <td>@item.PunchInTime</td>
+                                    <td>@item.PunchOutTime</td>
+                                    <td>
+                                        @{
+                                            TimeSpan? duration = null;
+
+                                            if (item.PunchIn.HasValue && item.PunchOut.HasValue)
+                                            {
+                                                duration = item.PunchOut.Value - item.PunchIn.Value;
+                                            }
+                                        }
+
+                                        @(duration.HasValue ? duration.Value.ToString(@"hh\:mm\:ss") : "N/A")
+                                    </td>
+                                    <td class="@(item.AttendanceStatus=="Present"?"text-success":"text-danger")" >@item.AttendanceStatus</td>
+                       
+                                </tr>
+
+                            }
+                        </tbody>
+                    </table>
+            </div>
+            <!-- /.table-responsive -->
+        </div>
+     
+    </div>
+</main>
