@@ -1,4 +1,0 @@
-School_staff/Poratal/.vs
-School_staff/Poratal/Attendance/bin
-School_staff/Poratal/Attendance/obj
-School_staff/Poratal/Attendance/.config
