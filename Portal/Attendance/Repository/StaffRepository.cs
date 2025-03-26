@@ -133,7 +133,41 @@ namespace Attendance.Repository
             }
             return StaffList;   //
         }
+        public IEnumerable<manualAttendance> getmanualAttendanceStaffList(int loginuserid)
+        {
+            List<manualAttendance> manualAttendanceList = new List<manualAttendance>();
+            int srno = 0;
+            try
+            {
+                using(SqlConnection con=new SqlConnection(_connectionString))
+                {
+                    con.Open();
+                    SqlCommand cmd = new SqlCommand("disp_manualAttendanceStaffList", con);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    var organisationId = loginuserid;
+                    cmd.Parameters.Add("@organisationId", SqlDbType.Int).Value = organisationId;
+                    SqlDataReader dr = cmd.ExecuteReader();
+                    while(dr.Read())
+                    {
+                        srno++;
+                        manualAttendance obj_manualAttendance = new manualAttendance();
+                        obj_manualAttendance.srno = srno;
+                        
+                        obj_manualAttendance.teacherId = Convert.ToInt32(dr["teacherId"]);
+                        obj_manualAttendance.teacherName = dr["teacherName"].ToString();
+                        obj_manualAttendance.teacherMobileNumber = dr["teacherMobileNumber"].ToString();
+                        manualAttendanceList.Add(obj_manualAttendance);
 
+                    }
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            return manualAttendanceList;
+        }
         public IEnumerable<staffdailyStatus> GetStaffStatusList(int loginuserid)
         {
             List<staffdailyStatus> StaffListStatus = new List<staffdailyStatus>();

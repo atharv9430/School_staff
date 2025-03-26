@@ -9,11 +9,11 @@ namespace Attendance.Models
     {
         public List<Staff> StaffList { get; set; } = new List<Staff>();
     }
-    public class OrganisationTimeModel    
+    public class OrganisationTimeModel
     {
         public List<OrganisationTime> OrganisationTimeList { get; set; } = new List<OrganisationTime>();
     }
-    public class StaffAttendanceStatusModel       
+    public class StaffAttendanceStatusModel
     {
         public List<StaffAttendanceStatus> StaffAttendanceStatusList { get; set; } = new List<StaffAttendanceStatus>();
     }
@@ -22,8 +22,12 @@ namespace Attendance.Models
         public List<StaffCount> StaffCountList { get; set; } = new List<StaffCount>();
         public List<staffdailyStatus> StaffStatusList { get; set; } = new List<staffdailyStatus>();
     }
-    public class StaffDeviceListModel   
+    public class StaffDeviceListModel
     {
         public List<StaffDevice> StaffDeviceList { get; set; } = new List<StaffDevice>();
-}
+    }
+    public class manualAttendanceModel
+    {
+        public List<manualAttendance> manualAttendanceList { get; set; } = new List<manualAttendance>();
+    }
 }

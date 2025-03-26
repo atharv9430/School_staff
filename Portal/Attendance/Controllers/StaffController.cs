@@ -24,12 +24,22 @@ namespace Attendance.Controllers
         }
         public IActionResult AddStaff()
         { 
-            return View("~/Views/School/AddStaff.cshtml");
+            return View("~/Views/School/AddStaff.cshtml");  
         } 
         public IActionResult manageTime()
         {
 
             return View("~/Views/School/AttendanceTime.cshtml");   
+        }
+        public IActionResult manualAttendance()
+        {
+            List<manualAttendance> manualAttendances = (List<manualAttendance>)_repository.getmanualAttendanceStaffList(Convert.ToInt32(User.Identity.Name));
+            manualAttendanceModel model = new manualAttendanceModel
+            {
+                manualAttendanceList = manualAttendances
+            };
+
+            return View("~/Views/School/ManualAttendance.cshtml",model);
         }
 
         public IActionResult StaffList()

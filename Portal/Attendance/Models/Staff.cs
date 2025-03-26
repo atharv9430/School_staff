@@ -45,4 +45,12 @@
         public string PunchOutTime => PunchOut?.ToString("HH:mm:ss") ?? "N/A";
         public string AttendanceStatus { get; set; }
     }
+    public class manualAttendance
+    {
+        public int srno { get; set; }
+        public int teacherId { get; set; }
+        public string teacherName { get; set; }
+        public string teacherMobileNumber { get; set; }
+
+    }
 }
