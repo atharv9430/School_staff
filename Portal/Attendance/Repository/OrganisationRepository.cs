@@ -249,8 +249,8 @@ namespace Attendance.Repository
                 using (var connection = new SqlConnection(_connectionString))
                 {
                     await connection.OpenAsync();
-
-                    using (var command = new SqlCommand("UpdateOrganisation", connection))
+                    
+                    using (var command = new SqlCommand("UpdateOrganisation", connection)) 
                     {
                         command.CommandType = CommandType.StoredProcedure;
 
