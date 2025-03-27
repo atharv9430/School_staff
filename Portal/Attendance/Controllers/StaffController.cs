@@ -157,9 +157,9 @@ namespace Attendance.Controllers
                 return View("~/Views/School/AttendanceTime.cshtml");
             }
         }
-        public IActionResult AddManualAttendance(int teacherId,string attendanceStatus,TimeOnly attendanceTime)
+        public IActionResult AddManualAttendance(int teacherId,string attendanceStatus,string staffAttendanceTime)
         {
-            int result = _repository.addManualAttendance(teacherId, attendanceStatus, attendanceTime);
+            int result = _repository.addManualAttendance(teacherId, attendanceStatus, staffAttendanceTime);
             if (result > 0)
             {
                 return View("~/Views/School/ManualAttendance.cshtml");
