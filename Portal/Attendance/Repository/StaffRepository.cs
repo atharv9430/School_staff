@@ -87,6 +87,35 @@ namespace Attendance.Repository
                 throw;
             }
         } 
+        public int addManualAttendance(int teacherId, string attendanceStatus, TimeOnly attendanceTime)
+        {
+            try
+            {
+                if(teacherId!=null &&(attendanceStatus!=null)&&(attendanceTime!=null))
+                {
+                    using(SqlConnection con=new SqlConnection(_connectionString))
+                    {
+                        con.Open();
+                        SqlCommand cmd = new SqlCommand("ins_ManualAttendance", con);
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.Add("@teacherId", SqlDbType.Int).Value = teacherId;
+                        cmd.Parameters.Add("@attendanceStatus", SqlDbType.NVarChar, 100).Value = attendanceStatus;
+                        cmd.Parameters.Add("@attendanceTime", SqlDbType.Time).Value = attendanceTime;
+                        int intResult = cmd.ExecuteNonQuery();
+                        if (intResult > 0)
+                        {
+                            return intResult;
+                        }
+                    }
+                }
+                return 0;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
         public IEnumerable<Staff> GetStaffs(int loginuserid)
         {
             List<Staff> StaffList = new List<Staff>();

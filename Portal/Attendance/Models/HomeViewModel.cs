@@ -28,6 +28,7 @@ namespace Attendance.Models
     }
     public class manualAttendanceModel
     {
+        public int selectedTeacherId { get; set; }
         public List<manualAttendance> manualAttendanceList { get; set; } = new List<manualAttendance>();
     }
 }
