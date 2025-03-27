@@ -87,11 +87,11 @@ namespace Attendance.Repository
                 throw;
             }
         } 
-        public int addManualAttendance(int teacherId, string attendanceStatus, string attendanceTime)
+        public int addManualAttendance(int teacherId, string attendanceStatus, string staffAttendanceTime)
         {
             try
             {
-                if(teacherId!=null &&(attendanceStatus!=null)&&(attendanceTime!=null))
+                if(teacherId!=null &&(attendanceStatus!=null)&&(staffAttendanceTime != null))
                 {
                     using(SqlConnection con=new SqlConnection(_connectionString))
                     {
@@ -101,7 +101,7 @@ namespace Attendance.Repository
                         cmd.Parameters.Add("@teacherId", SqlDbType.Int).Value = teacherId;
                      
                         cmd.Parameters.Add("@attendanceStatus", SqlDbType.NVarChar, 100).Value = attendanceStatus;
-                        cmd.Parameters.Add("@staffAttendanceTime", SqlDbType.NVarChar,100).Value = attendanceTime;
+                        cmd.Parameters.Add("@staffAttendanceTime", SqlDbType.NVarChar,100).Value = staffAttendanceTime;
                         int intResult = cmd.ExecuteNonQuery();
                         if (intResult > 0)
                         {
