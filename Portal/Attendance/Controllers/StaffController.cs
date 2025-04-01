@@ -130,9 +130,9 @@ namespace Attendance.Controllers
             TempData["responseMsg"] = staff.responseMsg;
             return RedirectToAction("EditStaffDetail", new {id=obj.teacherId});
         }
-        public IActionResult AddStaffDetail(string staffCode, string stfName, string stfType, string stfDepartment, string stfmobNumber, string stfjoiningDate, string stfEmail, string stfPasssword, string stfDesignation)
+        public IActionResult AddStaffDetail(string staffCode, string stfName, string stfType, string stfDepartment, string stfmobNumber, string stfjoiningDate, string stfEmail, string stfPasssword, string stfDesignation,string selectedGender, int SelectedstaffType)
         {
-            int result = _repository.addStaff(staffCode, stfName, stfType, stfDepartment, stfmobNumber, stfjoiningDate, stfEmail, stfPasssword, stfDesignation, Convert.ToInt32(User.Identity.Name));
+            int result = _repository.addStaff(staffCode, stfName, stfType, stfDepartment, stfmobNumber, stfjoiningDate, stfEmail, stfPasssword, stfDesignation,selectedGender, SelectedstaffType, Convert.ToInt32(User.Identity.Name));
             if (result > 0)
             {
                 return View("~/Views/School/AddStaff.cshtml");

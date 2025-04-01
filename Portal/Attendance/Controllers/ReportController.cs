@@ -42,7 +42,7 @@ namespace Attendance.Controllers
             return View("~/Views/School/AttendanceReport.cshtml");
         }
 
-        public IActionResult MonthlyReport(string monthyear)
+        public IActionResult MonthlyReport(string monthyear,int SelectedstaffType)
         {
             ViewBag.MonthYear = monthyear;
             if (string.IsNullOrEmpty(monthyear) )
@@ -58,7 +58,7 @@ namespace Attendance.Controllers
             int daysInMonth = DateTime.DaysInMonth(year, month);
 
             ReportRepository report = new ReportRepository(_configuration);
-            var response = report.GetMonthlyAttendance(month, year, Convert.ToInt32(User.Identity.Name));
+            var response = report.GetMonthlyAttendance(month, year, SelectedstaffType, Convert.ToInt32(User.Identity.Name));
 
             var model = new MonthlyReportViewModel
             {
@@ -70,7 +70,7 @@ namespace Attendance.Controllers
             return View(model);
         }
 
-        public IActionResult MonthlyAttendencePdfGenerate(string monthyear)
+        public IActionResult MonthlyAttendencePdfGenerate(string monthyear,int SelectedstaffType)
         {
             //ViewBag.MonthYear = TempData["monthyear"] as string;
             
@@ -88,7 +88,7 @@ namespace Attendance.Controllers
             int daysInMonth = DateTime.DaysInMonth(year, month);
 
             ReportRepository report = new ReportRepository(_configuration);
-            var response = report.GetMonthlyAttendance(month, year, Convert.ToInt32(User.Identity.Name));
+            var response = report.GetMonthlyAttendance(month, year, SelectedstaffType, Convert.ToInt32(User.Identity.Name));
 
             ViewData["IsPdf"] = "true"; // Pass flag to view
             var model = new MonthlyReportViewModel
