@@ -21,7 +21,7 @@ namespace Attendance.Repository
             _configuration = configuration;
         }
         //public DataTable GetMonthlyAttendance(int month, int year, HttpContext httpContext)
-        public DataTable GetMonthlyAttendance(int Month,int Year,int ORGID)
+        public DataTable GetMonthlyAttendance(int Month,int Year,int SelectedstaffType,int ORGID)
         {
             DataTable dataTable = new DataTable();
             using (SqlConnection conn = new SqlConnection(_connectionString))
@@ -31,7 +31,8 @@ namespace Attendance.Repository
                     cmd.CommandType = CommandType.StoredProcedure; 
                     
                     cmd.Parameters.AddWithValue("@Month", Month);
-                    cmd.Parameters.AddWithValue("@Year", Year); 
+                    cmd.Parameters.AddWithValue("@Year", Year);
+                    cmd.Parameters.AddWithValue("@staffTypeId", SelectedstaffType);
                     cmd.Parameters.AddWithValue("@organisationId", ORGID);
 
                     conn.Open();

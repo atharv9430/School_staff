@@ -11,7 +11,7 @@
     // var month = Model.Month;
 }
 
-
++
 
 
 
@@ -41,6 +41,17 @@
                 <div class="row">
                     <div class="col-md-4">
                         <input type="month" name="monthyear" value="@DateTime.Now.ToString("yyyy-MM")" class="form-control" />
+                    </div>
+                     <div class="col-md-3 mb-3">
+                      
+                        <div class="col-lg-12">
+                            <select id="inputState" class="form-control" name="SelectedstaffType" required>
+                                <option value="" disabled selected>Choose Staff type</option>
+                                <option value="1">Teaching</option>
+                                <option value="2">Non-Teaching</option>
+                                <option value="3">Transport</option>
+                            </select> 
+                        </div>
                     </div>
                     <div class="col-md-4">
                         <button type="submit" class="btn btn-primary" asp-action="MonthlyReport" asp-controller="Report">Show Attendance</button>

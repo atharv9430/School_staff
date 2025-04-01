@@ -12,7 +12,7 @@ namespace Attendance.Repository
         {
             _connectionString = configuration.GetConnectionString("DefaultConnection");
         }
-        public int addStaff(string staffCode, string stfName, string stfType, string stfDepartment, string stfmobNumber, string stfjoiningDate, string stfEmail, string stfPasssword, string stfDesignation, int loginuserid)
+        public int addStaff(string staffCode, string stfName, string stfType, string stfDepartment, string stfmobNumber, string stfjoiningDate, string stfEmail, string stfPasssword, string stfDesignation,string selectedGender, int SelectedstaffType, int loginuserid)
         {
             try
             {
@@ -27,8 +27,9 @@ namespace Attendance.Repository
                         cmd.Parameters.Add("@organisationId", SqlDbType.Int).Value = userId;// staff.teacherCode;
                         cmd.Parameters.Add("@teacherCode", SqlDbType.NVarChar, 100).Value = staffCode;
                         cmd.Parameters.Add("@teacherName", SqlDbType.NVarChar, 100).Value = stfName;
-                        cmd.Parameters.Add("@teacherGender", SqlDbType.NVarChar, 100).Value ="Gender";
+                        cmd.Parameters.Add("@teacherGender", SqlDbType.NVarChar, 100).Value = selectedGender;
                         cmd.Parameters.Add("@teacherType", SqlDbType.NVarChar, 100).Value = stfType;
+                        cmd.Parameters.Add("@teacherTypeId",SqlDbType.Int).Value = SelectedstaffType;
                         cmd.Parameters.Add("@teacherDepartment", SqlDbType.NVarChar, 100).Value = stfDepartment;
                         cmd.Parameters.Add("@teacherMobileNumber", SqlDbType.NVarChar, 100).Value = stfmobNumber;
                         cmd.Parameters.Add("@teacherDesignation", SqlDbType.NVarChar, 100).Value = stfDesignation;
