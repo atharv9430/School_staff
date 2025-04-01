@@ -26,6 +26,9 @@
         public  string totaldays { get; set; }
         public  string daysPresent { get; set; }
         public  string daysAbsent { get; set; }
+        public  string daysLate { get; set; }
+        public  string daysBeforeTime { get; set; }
+        public  string daysWeekOff { get; set; }
 
     }
     public class StaffCount

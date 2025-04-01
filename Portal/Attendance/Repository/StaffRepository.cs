@@ -297,6 +297,9 @@ namespace Attendance.Repository
                         obj_staffAttendanceStatus.teacherCode = dr["teacherCode"].ToString();
                         obj_staffAttendanceStatus.daysPresent = dr["present"].ToString();
                         obj_staffAttendanceStatus.daysAbsent = dr["absent"].ToString(); 
+                        obj_staffAttendanceStatus.daysLate = dr["late"].ToString(); 
+                        obj_staffAttendanceStatus.daysBeforeTime = dr["BeforeTime"].ToString(); 
+                        obj_staffAttendanceStatus.daysWeekOff= dr["WeekOff"].ToString(); 
                      
 
                         StaffAttendanceStatusList.Add(obj_staffAttendanceStatus);

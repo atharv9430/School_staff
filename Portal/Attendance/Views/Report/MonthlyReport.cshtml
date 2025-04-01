@@ -87,7 +87,9 @@
             string[] WorkingHrs = new string[daysInMonth]; // Initialize an array with 31 elements
             string[] OTime = new string[daysInMonth]; // Initialize an array with 31 elements
             string[] Sts = new string[daysInMonth]; // Initialize an array with 31 elements
-
+            int presentday = 0;
+            int absentday = 0;
+            int lateday = 0;
 
             @for (int i = 0; i < daysInMonth; i++)
             {
@@ -97,53 +99,70 @@
 
                 @* Testing COde *@
 
-               @*  string arrival = "07:08", departure = "14:35";
+                @*  string arrival = "07:08", departure = "14:35";
                 if(i%2==0){
                     departure = "0";
                 }
                 if(i==3){
                     arrival = "0";
                 } *@
-
+                string asts=null;
                 double whrs = 0;
                 if (!string.IsNullOrEmpty(Days) && Days.Contains("-"))
                 {
                     string[] parts = Days.Split('-');
                     arrival = parts[0].Trim();  // Before '-'
                     departure = parts[1].Trim(); // After '-'
+                    asts=parts[2].Trim();
 
                 }
 
                 TimeSpan startTime = TimeSpan.Parse(arrival);
                 TimeSpan endTime = TimeSpan.Parse(departure);
 
-                 
+
 
                 @* if (arrival != "00:00" || departure != "00:00") *@
-              
-               @*  if (startTime == TimeSpan.Zero || endTime == TimeSpan.Zero)
+
+                @*  if (startTime == TimeSpan.Zero || endTime == TimeSpan.Zero)
                 {
                     Sts[i] = "A";
                 }else{
                     Sts[i] = "P";
                     whrs = (endTime - startTime).TotalHours; 
                 }
-                
+
                 whrs = (endTime - startTime).TotalHours; *@
 
                 ArivalTime[i] = @arrival; // Fetch data from columns named "1", "2", ..., "31"
                 DeptTime[i] = @departure;
-                if (departure == "00:00" || arrival == "00:00")
+
+                @* if (departure == "00:00" || arrival == "00:00") *@
+                if (arrival == "00:00")
                 {
                     Sts[i] = "A";
                     WorkingHrs[i] = "00:00"; // Fetch data from columns named "1", "2", ..., "31"
+                    absentday++;
                 }else{
-                    Sts[i] = "P";
-                    // Calculate working duration
-                    TimeSpan workDuration = endTime - startTime;
+                    if (asts == "Late")
+                    {
+                        Sts[i] = "L";
+                        lateday++;
+                    }else{
+                        Sts[i] = "P";
+                    }
 
-                    // Format as HH:mm
-                    WorkingHrs[i] = workDuration.ToString(@"hh\:mm");
+                    if (departure == "00:00"){
+                        WorkingHrs[i] = "00:00";
+                    }else{
+                        // Calculate working duration
+                        TimeSpan workDuration = endTime - startTime;
+
+                        // Format as HH:mm
+                        WorkingHrs[i] = workDuration.ToString(@"hh\:mm");
+                    }
+                   
+                    presentday++;
                     @* WorkingHrs[i] = @whrs.ToString("00:00"); // Fetch data from columns named "1", "2", ..., "31" *@
                 }
                 OTime[i] = "00:00";
@@ -161,7 +180,7 @@
                 printtablecount = 0;
             }
 
-            <table style="margin-bottom:15px;">
+            <table style="margin-bottom:15px;text-align:center;">
                 <thead>
                     <tr>
                         <th>EmpCode</th>
@@ -173,7 +192,7 @@
                         <th>Absent</th>
                         <th>Leave</th>
                         <th>PaidDays</th>
-                        <th>LateHrs.</th>
+                        <th>Late</th>
                         <th>WorkHrs.</th>
                         <th>OvTim</th>
                     </tr>
@@ -183,13 +202,13 @@
                         <td>@EmpCode</td>
                         <td>@Name</td>
                         <td>@Designation</td>
+                        <td>@presentday</td>
                         <td></td>
                         <td></td>
+                        <td>@absentday</td>
                         <td></td>
                         <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td>@lateday</td>
                         <td></td>
                         <td></td>
                     </tr>
