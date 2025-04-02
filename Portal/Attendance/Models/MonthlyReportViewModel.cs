@@ -5,7 +5,7 @@
         public System.Data.DataTable ReportData { get; set; }
         public int DaysInMonth { get; set; }
         public string Month { get; set; }
-        public int SelectedstaffType {  get; set; }   
+          
     }
 
 }
