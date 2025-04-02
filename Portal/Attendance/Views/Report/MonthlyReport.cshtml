@@ -9,6 +9,7 @@
     var dataTable = Model.ReportData; // Fetch DataTable from model
     int daysInMonth = Model.DaysInMonth;
     var month = Model.Month;
+    var SelectedstaffTypeId = Model.SelectedstaffType;
 }
 <!DOCTYPE html>
 <html lang="en">
@@ -278,8 +279,9 @@
             // Select the button using querySelector (if only one button exists)
              
             let monthyear = "@ViewBag.MonthYear";
+              let selectedStaffType =1;// "@ViewBag.SelectedStaffType";
 
-             let url = `/Report/MonthlyAttendencePdfGenerate?monthyear=${encodeURIComponent(monthyear)}`;
+             let url = `/Report/MonthlyAttendencePdfGenerate?monthyear=${encodeURIComponent(monthyear)}&selectedStaffType=${encodeURIComponent(selectedStaffType)}`;
             document.querySelector(".downloadPdfBtn")?.addEventListener("click", function () {
                 // Properly encode URL parameters to avoid issues
 
