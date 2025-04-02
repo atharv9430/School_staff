@@ -64,13 +64,14 @@ namespace Attendance.Controllers
             {
                 ReportData = response,
                 DaysInMonth = daysInMonth,
-                Month = new DateTime(year, month, 1).ToString("MMMM yyyy")
+                Month = new DateTime(year, month, 1).ToString("MMMM yyyy"),
+                SelectedstaffType= SelectedstaffType
             };
 
             return View(model);
         }
 
-        public IActionResult MonthlyAttendencePdfGenerate(string monthyear,int SelectedstaffType)
+        public IActionResult MonthlyAttendencePdfGenerate(string monthyear,int selectedstafftype)
         {
             //ViewBag.MonthYear = TempData["monthyear"] as string;
             
@@ -88,7 +89,7 @@ namespace Attendance.Controllers
             int daysInMonth = DateTime.DaysInMonth(year, month);
 
             ReportRepository report = new ReportRepository(_configuration);
-            var response = report.GetMonthlyAttendance(month, year, SelectedstaffType, Convert.ToInt32(User.Identity.Name));
+            var response = report.GetMonthlyAttendance(month, year, selectedstafftype, Convert.ToInt32(User.Identity.Name));
 
             ViewData["IsPdf"] = "true"; // Pass flag to view
             var model = new MonthlyReportViewModel
@@ -96,7 +97,7 @@ namespace Attendance.Controllers
                 ReportData = response,
                 DaysInMonth = daysInMonth,
                 Month = new DateTime(year, month, 1).ToString("MMMM yyyy"),
-                SelectedstaffType= SelectedstaffType
+                SelectedstaffType= selectedstafftype
 
             };
             return new ViewAsPdf("MonthlyReport", model)
