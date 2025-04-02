@@ -95,7 +95,8 @@ namespace Attendance.Controllers
             {
                 ReportData = response,
                 DaysInMonth = daysInMonth,
-                Month = new DateTime(year, month, 1).ToString("MMMM yyyy")
+                Month = new DateTime(year, month, 1).ToString("MMMM yyyy"),
+                SelectedstaffTypeId= SelectedstaffType
             };
             return new ViewAsPdf("MonthlyReport", model)
             {
