@@ -1,5 +1,14 @@
-School_staff/Portal/.vs
-School_staff/Portal/Attendance/bin
-School_staff/Portal/Attendance/obj
-School_staff/Portal/Attendance/.config
-gitignore.txt
+# School_staff/Portal/.vs
+# School_staff/Portal/Attendance/bin
+# School_staff/Portal/Attendance/obj
+# School_staff/Portal/Attendance/.config
+
+# Ignore Visual Studio files
+.vs/
+
+# Ignore build and output directories
+bin/
+obj/
+
+# Ignore config files
+*.config
